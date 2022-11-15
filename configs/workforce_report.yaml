@@ -1,0 +1,84 @@
+# Example: cleaning the bundled workforce_report.csv sample
+version: "1.0"
+name: workforce-report-example
+description: >
+  Workforce report: canonicalize departments, validate salaries and hours,
+  normalize hire dates, require managers for senior staff, deduplicate
+  employee rows.
+
+rules:
+  - id: markers-to-na
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "null", "unknown", "-", "n.a."]
+
+  - id: departments
+    type: string_standardize
+    columns: [department]
+    trim_whitespace: true
+    case: title
+    value_mappings:
+      Inf. Tech: IT
+      Hr: Human Resources
+
+  - id: names
+    type: string_standardize
+    columns: [employee_name]
+    trim_whitespace: true
+    collapse_internal_whitespace: true
+    case: title
+
+  - id: hire-dates
+    type: date_normalize
+    columns: [hire_date]
+    dayfirst: true
+    output_format: "%Y-%m-%d"
+    on_error: flag
+
+  - id: salary-decimal
+    type: type_conversion
+    column: annual_salary
+    target: decimal
+    thousands_sep: ","
+    on_error: flag
+
+  - id: salary-range
+    type: numeric_validate
+    columns: [annual_salary]
+    min: 0
+    max: 2000000
+    outlier_method: iqr
+    outlier_action: flag
+
+  - id: weekly-hours
+    type: numeric_validate
+    columns: [weekly_hours]
+    min: 1
+    max: 80
+    allow_decimal: false
+
+  - id: employee-id-format
+    type: regex_match
+    column: employee_id
+    pattern: "^EMP-[0-9]{4,6}$"
+
+  - id: senior-needs-manager
+    type: conditional_required
+    column: manager_id
+    when_column: seniority
+    when_operator: "=="
+    when_value: senior
+
+  - id: dedupe-employees
+    type: duplicates
+    keep: first
+
+export:
+  fmt: csv
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  key_columns: [employee_id, employee_name]
+  redact_columns: []
+  write_excel_workbook: false

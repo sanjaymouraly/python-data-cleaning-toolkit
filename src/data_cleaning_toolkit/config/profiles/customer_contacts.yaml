@@ -1,0 +1,79 @@
+# Cleaning profile: customer contact exports
+version: "1.0"
+name: customer-contacts
+description: >
+  CRM/contact exports: normalize names and emails, deduplicate on email,
+  validate phone/ISO country formats, protect PII in audit logs.
+
+rules:
+  - id: markers-to-na
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "null", "unknown", "-"]
+
+  - id: person-names
+    type: string_standardize
+    columns: [full_name]
+    trim_whitespace: true
+    collapse_internal_whitespace: true
+    case: title
+
+  - id: emails
+    type: string_standardize
+    columns: [email]
+    trim_whitespace: true
+    case: lower
+
+  - id: country-codes
+    type: string_standardize
+    columns: [country]
+    trim_whitespace: true
+    case: upper
+
+  - id: remove-rows-without-email
+    type: missing_values
+    columns: [email]
+    strategy: remove_rows
+    scope: any
+
+  - id: dedupe-on-email
+    type: duplicates
+    columns: [email]
+    keep: first
+
+  - id: email-format
+    type: regex_match
+    column: email
+    pattern: "^[^@\\s]+@[^@\\s]+\\.[A-Za-z]{2,}$"
+
+  - id: phone-format
+    type: regex_match
+    column: phone
+    pattern: "^\\+?[0-9 ()-]{7,18}$"
+
+  - id: country-iso
+    type: allowed_values
+    column: country
+    values: [US, GB, DE, FR, IN, NL, ES, IT, CA, AU]
+
+  - id: tier-allowed
+    type: allowed_values
+    column: tier
+    values: [free, standard, premium, enterprise]
+    ignore_case: true
+
+  - id: signup-date
+    type: date_normalize
+    columns: [signup_date]
+    output_format: "%Y-%m-%d"
+
+export:
+  fmt: xlsx
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  max_change_records: 50000
+  key_columns: [customer_id, email]
+  redact_columns: [email, phone]   # PII never appears in audit records
+  write_excel_workbook: false

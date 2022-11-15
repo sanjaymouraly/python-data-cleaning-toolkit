@@ -1,0 +1,46 @@
+# Cleaning profile: general business reports
+# Sensible, conservative defaults for typical operational/business exports.
+version: "1.0"
+name: general-business-report
+description: >
+  Conservative defaults for general business reports: normalize null markers,
+  keep rows but fill known markers, trim text, deduplicate exact rows, and
+  validate transaction-like numeric columns.
+
+rules:
+  - id: normalize-null-markers
+    type: missing_values
+    columns: null            # all columns
+    strategy: retain         # report only; markers become real <NA>
+    null_markers: ["", "n/a", "na", "null", "none", "nan", "unknown", "-", "?"]
+
+  - id: trim-text-fields
+    type: string_standardize
+    apply_to_all_text: true
+    trim_whitespace: true
+    collapse_internal_whitespace: false
+    case: none               # never force case on free text
+
+  - id: drop-exact-duplicates
+    type: duplicates
+    keep: first
+
+export:
+  fmt: csv
+  directory: cleaned
+  filename_suffix: _cleaned
+  delimiter: ","
+  encoding: utf-8
+  formula_injection_guard: true
+  validate_output: true
+
+limits:
+  max_file_mb: 200
+  max_rows: 1000000
+  max_columns: 500
+
+audit:
+  max_change_records: 50000
+  key_columns: []
+  redact_columns: []
+  write_excel_workbook: false

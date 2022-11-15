@@ -1,0 +1,85 @@
+# Cleaning profile: workforce / HR reporting datasets
+version: "1.0"
+name: workforce-report
+description: >
+  HR/workforce exports: standardize department names, validate salaries and
+  working hours, normalize employment dates, enforce conditional fields.
+
+rules:
+  - id: markers-to-na
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "null", "unknown", "-", "n.a."]
+
+  - id: departments
+    type: string_standardize
+    columns: [department]
+    trim_whitespace: true
+    case: title
+    value_mappings:
+      hr: Human Resources
+      human resources: Human Resources
+      it: IT
+      inf. tech: IT
+
+  - id: names
+    type: string_standardize
+    columns: [employee_name]
+    trim_whitespace: true
+    collapse_internal_whitespace: true
+    case: title
+
+  - id: hire-date
+    type: date_normalize
+    columns: [hire_date]
+    dayfirst: false
+    output_format: "%Y-%m-%d"
+
+  - id: salary-to-decimal
+    type: type_conversion
+    column: annual_salary
+    target: decimal
+    thousands_sep: ","
+    on_error: flag
+
+  - id: salary-range
+    type: numeric_validate
+    columns: [annual_salary]
+    min: 0
+    max: 2000000
+    outlier_method: iqr
+    outlier_action: flag
+
+  - id: weekly-hours
+    type: numeric_validate
+    columns: [weekly_hours]
+    min: 1
+    max: 80
+
+  - id: employee-id-format
+    type: regex_match
+    column: employee_id
+    pattern: "^EMP-[0-9]{4,6}$"
+
+  - id: unique-employee-id
+    type: unique_key
+    columns: [employee_id]
+    on_violation: flag
+
+  - id: manager-required-for-senior
+    type: conditional_required
+    column: manager_id
+    when_column: seniority
+    when_operator: "=="
+    when_value: senior
+
+export:
+  fmt: csv
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  max_change_records: 50000
+  key_columns: [employee_id, employee_name]
+  redact_columns: [national_id, bank_account]
+  write_excel_workbook: false

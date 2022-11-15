@@ -1,0 +1,98 @@
+# Cleaning profile: sales & inventory reports
+version: "1.0"
+name: sales-inventory
+description: >
+  Sales/inventory exports: fix category labels, normalize mixed weight units,
+  validate quantities and prices, remove rows with missing keys, keep only
+  known order statuses.
+
+rules:
+  - id: markers-to-na
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "null", "-", "unknown"]
+
+  - id: remove-rows-without-product
+    type: missing_values
+    columns: [product]
+    strategy: remove_rows
+    scope: any
+
+  - id: category-labels
+    type: string_standardize
+    columns: [category, region]
+    trim_whitespace: true
+    case: lower
+
+  - id: status-labels
+    type: string_standardize
+    columns: [status]
+    value_mappings:
+      compleated: completed
+      fullfilled: fulfilled
+      canceld: cancelled
+    mapping_ignore_case: true
+
+  - id: order-date
+    type: date_normalize
+    columns: [order_date]
+    dayfirst: true            # EU day-first sales exports
+    output_format: "%Y-%m-%d"
+
+  - id: quantity-to-int
+    type: type_conversion
+    column: quantity
+    target: integer
+    thousands_sep: ","
+    on_error: flag
+
+  - id: unit-price-to-decimal
+    type: type_conversion
+    column: unit_price
+    target: decimal
+    thousands_sep: ","
+    on_error: flag
+
+  - id: weight-normalize-grams
+    type: unit_normalize
+    value_column: shipping_weight
+    unit_column: weight_unit
+    category: mass
+    target_unit: g
+    rounding_digits: 2
+
+  - id: quantity-positive
+    type: numeric_validate
+    columns: [quantity]
+    min: 0
+    allow_decimal: false
+    allow_negative: false
+
+  - id: price-sanity
+    type: numeric_validate
+    columns: [unit_price]
+    min: 0
+    max: 100000
+    outlier_method: iqr
+    outlier_action: flag
+
+  - id: order-status-allowed
+    type: allowed_values
+    column: status
+    values: [completed, pending, cancelled, refunded]
+
+  - id: customer-id-format
+    type: regex_match
+    column: customer_id
+    pattern: "^[A-Z]{2}[0-9]{4,}$"
+
+export:
+  fmt: csv
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  max_change_records: 50000
+  key_columns: [transaction_id, product]
+  redact_columns: []
+  write_excel_workbook: false

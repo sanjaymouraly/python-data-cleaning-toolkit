@@ -1,0 +1,52 @@
+{
+  "seed": 42,
+  "datasets": {
+    "sales_transactions.csv": {
+      "missing_region_cells": 25,
+      "missing_quantity_cells": 8,
+      "non_iso_or_invalid_dates": 182,
+      "whitespace_quantity_cells": 12,
+      "negative_quantities": 6,
+      "formatted_unit_price_cells": 15,
+      "category_case_variants": 40,
+      "mixed_weight_units": 30,
+      "status_typos": 9,
+      "invalid_customer_ids": 6,
+      "price_outliers": 1,
+      "total_mismatches": 10,
+      "nbsp_names": 5,
+      "exact_duplicate_rows": 20
+    },
+    "inventory.xlsx": {
+      "stock_issues": 6,
+      "duplicate_supplier_rows": 2
+    },
+    "freelancer_income_expenses.xlsx": {
+      "mixed_income_dates": 12,
+      "euro_amounts": 8,
+      "client_variants": 6,
+      "paid_markers_invalid": 3,
+      "duplicate_invoices": 2,
+      "expense_issues": 3
+    },
+    "customer_contacts.csv": {
+      "messy_names": 25,
+      "invalid_emails": 5,
+      "country_variants": 18,
+      "duplicate_emails": 4,
+      "tier_case_variants": 7,
+      "mixed_signup_dates": 10,
+      "invalid_phones": 4
+    },
+    "workforce_report.csv": {
+      "department_variants": 30,
+      "salary_issues": 12,
+      "weekly_hours_violations": 6,
+      "mixed_hire_dates": 15,
+      "duplicate_employee_rows": 2,
+      "bad_employee_ids": 4,
+      "senior_missing_manager": 5,
+      "padded_names": 8
+    }
+  }
+}

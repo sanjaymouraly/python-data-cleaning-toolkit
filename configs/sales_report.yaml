@@ -1,0 +1,156 @@
+# Example: cleaning the bundled sales_transactions.csv sample
+# Demonstrates most rule types working together. Try it:
+#   cleaner profile  -i examples/data/sales_transactions.csv -c configs/sales_report.yaml
+#   cleaner preview  -i examples/data/sales_transactions.csv -c configs/sales_report.yaml
+#   cleaner clean    -i examples/data/sales_transactions.csv -c configs/sales_report.yaml --yes
+version: "1.0"
+name: sales-report-example
+description: >
+  Full cleaning pipeline for the sales_transactions sample: normalize dates,
+  types and labels; validate quantities/prices; convert mixed weight units;
+  remove exact duplicates; flag everything suspicious instead of guessing.
+
+rules:
+  # 1. recognize text null markers everywhere (report only - no deletion)
+  - id: null-markers
+    type: missing_values
+    columns: null
+    strategy: retain
+    null_markers: ["", "n/a", "na", "null", "none", "unknown", "-"]
+
+  # 2. drop rows that have no product name at all
+  - id: drop-no-product
+    type: missing_values
+    columns: [product]
+    strategy: remove_rows
+    scope: any
+
+  # 3. standardize labels
+  - id: category-labels
+    type: string_standardize
+    columns: [category, region, status]
+    trim_whitespace: true
+    case: lower
+
+  - id: status-typos
+    type: string_standardize
+    columns: [status]
+    value_mappings:
+      compleated: completed
+      canceld: cancelled
+      fullfilled: fulfilled
+    mapping_ignore_case: true
+
+  - id: salesperson-names
+    type: string_standardize
+    columns: [salesperson]
+    trim_whitespace: true
+    collapse_internal_whitespace: true
+    unicode_normalize: NFC
+    case: none
+
+  # 4. normalize dates - dayfirst resolved explicitly, invalid flagged
+  - id: order-date
+    type: date_normalize
+    columns: [order_date]
+    dayfirst: true
+    output_format: "%Y-%m-%d"
+    on_error: flag
+
+  # 5. explicit types
+  - id: quantity-int
+    type: type_conversion
+    column: quantity
+    target: integer
+    on_error: flag
+
+  - id: unit-price-decimal
+    type: type_conversion
+    column: unit_price
+    target: decimal
+    thousands_sep: ","
+    on_error: flag
+
+  - id: total-decimal
+    type: type_conversion
+    column: total
+    target: decimal
+    thousands_sep: ","
+    on_error: flag
+
+  # 6. fill missing quantity with the column median (explicit choice)
+  - id: quantity-fill-median
+    type: missing_values
+    columns: [quantity]
+    strategy: median
+
+  # 7. unit normalization: grams everywhere
+  - id: weight-to-grams
+    type: unit_normalize
+    value_column: shipping_weight
+    unit_column: weight_unit
+    category: mass
+    target_unit: g
+    rounding_digits: 2
+
+  # 8. numeric validation: flag violations, flag outliers (never delete them)
+  - id: quantity-rules
+    type: numeric_validate
+    columns: [quantity]
+    min: 0
+    allow_negative: false
+    allow_decimal: false
+
+  - id: price-rules
+    type: numeric_validate
+    columns: [unit_price]
+    min: 0
+    max: 50000
+    outlier_method: iqr
+    outlier_action: flag
+
+  # 9. custom business rules
+  - id: status-allowed
+    type: allowed_values
+    column: status
+    values: [completed, pending, cancelled, refunded]
+    ignore_case: true
+
+  - id: customer-id-format
+    type: regex_match
+    column: customer_id
+    pattern: "^[A-Za-z]{2}[0-9]{3,}$"
+
+  - id: totals-consistent
+    type: cross_column
+    left: total
+    operator: "=="
+    right_column: unit_price
+    factor_column: quantity      # total must equal unit_price * quantity
+    numeric: true
+    on_violation: flag
+
+  # 10. duplicates last, so identical *cleaned* rows collapse
+  - id: exact-duplicates
+    type: duplicates
+    keep: first
+
+export:
+  fmt: csv
+  directory: cleaned
+  filename_suffix: _cleaned
+  delimiter: ","
+  encoding: utf-8
+  formula_injection_guard: true
+  validate_output: true
+
+limits:
+  max_file_mb: 200
+  max_rows: 1000000
+  max_columns: 500
+
+audit:
+  max_change_records: 50000
+  key_columns: [transaction_id, product]
+  redact_columns: []
+  write_excel_workbook: true

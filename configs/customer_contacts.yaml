@@ -1,0 +1,71 @@
+# Example: cleaning the bundled customer_contacts.csv sample
+version: "1.0"
+name: customer-contacts-example
+description: >
+  Customer contact export: clean names/emails, canonicalize countries,
+  deduplicate on email, validate formats, protect PII from audit logs.
+
+rules:
+  - id: markers-to-na
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "null", "unknown", "-"]
+
+  - id: person-names
+    type: string_standardize
+    columns: [full_name]
+    trim_whitespace: true
+    collapse_internal_whitespace: true
+    case: title
+
+  - id: emails-lower
+    type: string_standardize
+    columns: [email]
+    trim_whitespace: true
+    case: lower
+
+  - id: country-canonical
+    type: string_standardize
+    columns: [country]
+    trim_whitespace: true
+    case: upper
+    value_mappings:
+      USA: US
+      U.S.: US
+      UNITED KINGDOM: GB
+
+  - id: tier-labels
+    type: string_standardize
+    columns: [tier]
+    case: lower
+
+  - id: signup-dates
+    type: date_normalize
+    columns: [signup_date]
+    output_format: "%Y-%m-%d"
+    on_error: flag
+
+  - id: email-format
+    type: regex_match
+    column: email
+    pattern: "^[^@\\s]+@[^@\\s]+\\.[A-Za-z]{2,}$"
+
+  - id: phone-format
+    type: regex_match
+    column: phone
+    pattern: "^\\+?[0-9 ()-]{7,18}$"
+
+  - id: dedupe-email
+    type: duplicates
+    columns: [email]
+    keep: first
+
+export:
+  fmt: xlsx
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  key_columns: [customer_id, email]
+  redact_columns: [email, phone]
+  write_excel_workbook: false

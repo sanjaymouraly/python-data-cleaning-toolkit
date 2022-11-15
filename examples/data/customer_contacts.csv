@@ -1,0 +1,225 @@
+customer_id,full_name,email,phone,country,tier,signup_date,marketing_opt_in
+CU1000,Noah Tanaka,noah.tanaka.0@post.example,+1 555 635 7064,FR,standard,2026-04-14,False
+CU1001,  ISLA MULLER ,isla.muller.1@post.example,+1 555 222 5751,IN,free,2026-01-21,True
+CU1002,  LIAM BENNETT ,liam.bennett.2@post.example,+1 555 527 1344,DE,free,2026-01-30,False
+CU1003,Liam Haddad,liam.haddad.3@inbox.example,+1 555 726 7659,usa,free,2025-06-02,False
+CU1004,Ethan Okafor,ethan.okafor.4@post.example,+1 555 517 3621,DE,standard,2026-01-29,True
+CU1005,Nina Tanaka,nina.tanaka.5@mail.example,+1 555 689 4140,US,free,2026-04-21,False
+CU1006,Nina Silva,nina.silva.6@mail.example,+1 555 869 3793,NL,premium,2025-09-20,True
+CU1007,Zoe Bennett,zoe.bennett.7@post.example,+1 555 569 6456,IN,free,2025-05-22,True
+CU1008,  AVA BENNETT ,ava.bennett.8@inbox.example,+1 555 988 7874,US,free,2025-02-05,True
+CU1009,  ISLA OKAFOR ,isla.okafor.9@post.example,+1 555 835 9616,GB,premium,2025-10-26,False
+CU1010,Zoe Novak,zoe.novak.10@mail.example,+1 555 110 9330,US,free,2025-09-02,False
+CU1011,Zoe Haddad,ZOE.HADDAD.11@INBOX.EXAMPLE,+1 555 581 6223,US,standard,2025-04-13,True
+CU1012,  ISLA OKAFOR ,isla.okafor.12@inbox.example,+1 555 625 3350,US,standard,2025-04-15,False
+CU1013,Mia Kowalski,MIA.KOWALSKI.13@MAIL.EXAMPLE,+1 555 335 1834,IN,free,2025-10-19,False
+CU1014,Isla Haddad,isla.haddad.14@inbox.example,+1 555 508 8462,US,standard,2025-06-19,True
+CU1015,Liam Bennett,liam.bennett.15@inbox.example,+1 555 634 1347,NL,free,2025-06-17,False
+CU1016,Mia Silva,mia.silva.16@post.example,+1 555 515 6961,U.S.,premium,2025-04-22,False
+CU1017,Mia Muller,mia.muller.17@inbox.example,+1 555 114 9315,GB,free,2026-01-16,False
+CU1018,Zoe Bennett,zoe.bennett.18@mail.example,+1 555 391 8705,NL,free,2026-01-14,True
+CU1019,Kai Okafor,kai.okafor.19@post.example,+1 555 594 6724,NL,premium,2026-02-08,False
+CU1020,Isla Novak,isla.novak.20@mail.example,+1 555 329 5339,IN,free,2025-03-15,True
+CU1021,Liam Silva,liam.silva.21@post.example,+1 555 267 8105,GB,free,2026-02-17,True
+CU1022,Noah Bennett,noah.bennett.22@post.example,+1 555 622 7630,US,standard,2025-09-05,False
+CU1023,Mia Novak,mia.novak.23@post.example,+1 555 578 3060,US,free,2026-04-19,True
+CU1024,  ETHAN OKAFOR ,ethan.okafor.24@post.example,+1 555 250 7081,U.S.,free,2026-01-30,True
+CU1025,Isla Kowalski,isla.kowalski.25@mail.example,+1 555 590 9100,FR,standard,2025-12-19,True
+CU1026,Isla Tanaka,isla.tanaka.26@mail.example,+1 555 101 8253,usa,premium,2025-05-19,False
+CU1027,Zoe Bennett,zoe.bennett.27@inbox.example,+1 555 911 6526,US,premium,2025-06-01,False
+CU1028,Nina Haddad,nina.haddad.28@inbox.example,+1 555 540 8402,FR,Premium,2026-04-21,False
+CU1029,Mia Bennett,mia.bennett.29@post.example,+1 555 545 4334,IN,free,2025-12-01,False
+CU1030,Ava Silva,ava.silva.30@mail.example,+1 555 852 1522,usa,free,2025-02-02,True
+CU1031,Nina Kowalski,nina.kowalski.31@post.example,+1 555 579 4001,DE,premium,2026-03-27,False
+CU1032,Nina Okafor,nina.okafor.32@inbox.example,+1 555 731 1679,GB,free,2026-05-11,False
+CU1033,Noah Bennett,noah.bennett.33@post.example,+1 555 817 5942,GB,premium,2026-02-16,False
+CU1034,  KAI KOWALSKI ,kai.kowalski.34@inbox.example,+1 555 755 4762,NL,premium,2026-03-26,True
+CU1035,Kai Okafor,kai.okafor.35@post.example,+1 555 188 2873,FR,free,"March 16, 2025",False
+CU1036,Isla Haddad,isla.haddad.36@mail.example,+1 555 136 6107, united kingdom ,standard,2025-02-10,True
+CU1037,Noah Bennett,noah.bennett.37@mail.example,+1 555 136 6427,NL,free,2025-08-28,True
+CU1038,Mia Bennett,MIA.BENNETT.38@MAIL.EXAMPLE,+1 555 483 3580,FR,free,2025-08-21,True
+CU1039,Noah Okafor,noah.okafor.39@inbox.example,+1 555 798 4800,DE,free,2025-07-27,True
+CU1040,Ethan Silva,ethan.silva.40@inbox.example,+1 555 477 7770,NL,premium,2025-07-06,False
+CU1041,Nina Tanaka,nina.tanaka.41@inbox.example,+1 555 788 7645,NL,free,2025-09-22,False
+CU1042,Isla Kowalski,isla.kowalski.42@post.example,+1 555 618 6820,DE,free,2026-04-19,False
+CU1043,Ethan Haddad,ETHAN.HADDAD.43@POST.EXAMPLE,+1 555 201 3799,US,free,2025-08-24,False
+CU1044,Kai Haddad,not-an-email,+1 555 357 9363,IN,standard,2026-03-10,True
+CU1045,Isla Tanaka,isla.tanaka.45@mail.example,+1 555 547 2383,FR,standard,2025-03-15,True
+CU1046,Omar Kowalski,omar.kowalski.46@mail.example,+1 555 604 3370,US,free,"March 17, 2025",True
+CU1047,Isla Kowalski,isla.kowalski.47@post.example,+1 555 684 6235,US,free,02/25/2026,True
+CU1048,Ethan Muller,ethan.muller.48@post.example,+1 555 167 9513,GB,free,03/23/2025,True
+CU1049,Liam Novak,liam.novak.49@inbox.example,+1 555 774 4004,IN,free,2026-01-06,False
+CU1050,Noah Silva,noah.silva.50@post.example,+1 555 206 9656,NL,free,2026-05-06,False
+CU1051,Isla Tanaka,ISLA.TANAKA.51@INBOX.EXAMPLE,+1 555 879 1870,FR,standard,2025-03-09,False
+CU1052,Ava Muller,ava.muller.52@post.example,+1 555 125 8107,NL,free,2026-04-22,True
+CU1053,Ethan Haddad,ethan.haddad.53@inbox.example,+1 555 532 5211,US,standard,2026-01-22,False
+CU1054,  LIAM HADDAD ,liam.haddad.54@mail.example,+1 555 917 3570,IN,standard,2025-12-13,False
+CU1055,Nina Tanaka,nina.tanaka.55@post.example,+1 555 218 9074,GB,standard,2026-04-08,False
+CU1056,Omar Kowalski,omar.kowalski.56@post.example,+1 555 310 1772,GB,premium,2025-09-28,False
+CU1057,Liam Kowalski,liam.kowalski.57@post.example,+1 555 182 4747,FR,premium,11/03/2025,False
+CU1058,Zoe Okafor,zoe.okafor.58@mail.example,+1 555 102 7639,FR,free,2025-01-23,False
+CU1059,Kai Kowalski,kai.kowalski.59@inbox.example,+1 555 513 3671,FR,free,2025-09-29,True
+CU1060,Ethan Novak,ethan.novak.60@inbox.example,+1 555 651 5393,usa,standard,2026-03-30,False
+CU1061,Zoe Muller,zoe.muller.61@inbox.example,+1 555 498 3302,NL,free,2025-07-19,False
+CU1062,Nina Novak,NINA.NOVAK.62@POST.EXAMPLE,+1 555 773 4171,DE,Premium,2026-05-03,True
+CU1063,Omar Muller,omar.muller.63@mail.example,+1 555 399 2187,NL,free,2025-07-29,False
+CU1064,  MIA HADDAD ,mia.haddad.64@mail.example,+1 555 959 3738,GB,premium,2025-12-28,False
+CU1065,Zoe Muller,zoe.muller.65@post.example,+1 555 389 5782,IN,free,2025-02-06,False
+CU1066,Ava Tanaka,ava.tanaka.66@inbox.example,+1 555 242 6918,GB,standard,2025-01-01,False
+CU1067,Omar Bennett,omar.bennett.67@inbox.example,+1 555 531 6714,DE,free,2026-05-15,True
+CU1068,Mia Okafor,mia.okafor.68@post.example,+1 555 804 7967,IN,free,2025-10-13,False
+CU1069,Noah Novak,noah.novak.69@mail.example,+1 555 533 8667,NL,free,2026-03-16,False
+CU1070,Zoe Silva,zoe.silva.70@inbox.example,+1 555 658 7999,DE,standard,2025-09-22,True
+CU1071,  ISLA TANAKA ,isla.tanaka.71@mail.example,+1 555 352 8226,GB,free,2025-04-28,False
+CU1072,Mia Haddad,mia.haddad.72@post.example,+1 555 947 7095,GB,free,2025-02-10,False
+CU1073,Ethan Okafor,ETHAN.OKAFOR.73@INBOX.EXAMPLE,+1 555 907 9003,FR,premium,2025-04-03,True
+CU1074,Omar Silva,OMAR.SILVA.74@INBOX.EXAMPLE,+1 555 977 3657,US,free,2026-02-02,False
+CU1075,Ava Haddad,ava.haddad.75@mail.example,+1 555 101 5499,NL,free,2025-01-22,False
+CU1076,Zoe Haddad,zoe.haddad.76@post.example,+1 555 114 4593,IN,standard,2026-01-12,True
+CU1077,Nina Muller,nina.muller.77@post.example,+1 555 957 2391,GB,standard,2025-08-24,False
+CU1078,  MIA NOVAK ,mia.novak.78@mail.example,+1 555 236 7756,FR,standard,2026-02-18,False
+CU1079,Kai Novak,kai.novak.79@inbox.example,++4455,DE,free,2025-03-03,True
+CU1080,Noah Okafor,noah.okafor.80@inbox.example,+1 555 914 3215,FR,free,2025-08-11,True
+CU1081,Kai Novak,kai.novak.81@post.example,+1 555 494 3355,GB,standard,2025-10-31,False
+CU1082,Isla Bennett,isla.bennett.82@inbox.example,+1 555 962 9239,GB,free,2025-04-01,False
+CU1083,Kai Bennett,kai.bennett.83@mail.example,+1 555 894 8445,NL,standard,2025-03-15,False
+CU1084,Ethan Muller,ethan.muller.84@post.example,+1 555 269 8625,U.S.,free,2026-02-24,False
+CU1085,Noah Kowalski,noah.kowalski.85@post.example,+1 555 138 2433,NL,free,2025-05-23,True
+CU1086,Ethan Okafor,ethan.okafor.86@post.example,+1 555 658 9709,FR,free,"February 23, 2026",False
+CU1087,Isla Tanaka,@,+1 555 358 1340,US,standard,2025-01-28,False
+CU1088,Liam Bennett,liam.bennett.88@post.example,+1 555 406 5054,GB,free,2025-10-14,False
+CU1089,Omar Kowalski,omar.kowalski.89@mail.example,+1 555 836 4539,US,free,2025-07-10,False
+CU1090,Liam Tanaka,liam.tanaka.90@mail.example,+1 555 968 3685,GB,premium,2025-08-01,True
+CU1091,Mia Kowalski,MIA.KOWALSKI.91@POST.EXAMPLE,+1 555 131 4505, united kingdom ,premium,2025-08-14,False
+CU1092,Liam Muller,liam.muller.92@mail.example,+1 555 293 7132,NL,free,2025-02-07,False
+CU1093,Mia Muller,mia.muller.93@inbox.example,+1 555 809 6999,FR,free,2025-07-11,True
+CU1094,Mia Okafor,mia.okafor.94@mail.example,+1 555 124 3434,DE,premium,2025-12-16,False
+CU1095,Kai Muller,kai.muller.95@mail.example,+1 555 613 9976,US,free,2025-04-29,True
+CU1096,Liam Okafor,liam.okafor.96@inbox.example,+1 555 470 5884,NL,premium,2026-01-12,False
+CU1097,Nina Novak,a@b,+1 555 788 8966,FR,standard,2025-08-16,False
+CU1098,Isla Kowalski,ISLA.KOWALSKI.98@POST.EXAMPLE,+1 555 386 1461,GB,premium,2026-03-31,True
+CU1099,  LIAM HADDAD ,liam.haddad.99@mail.example,+1 555 933 4516,IN,premium,2026-03-02,False
+CU1100,Kai Kowalski,kai.kowalski.100@inbox.example,+1 555 216 4059,IN,standard,2025-01-09,False
+CU1101,Mia Tanaka,mia.tanaka.101@mail.example,+1 555 551 2853,US,free,2025-03-31,False
+CU1102,Liam Tanaka,liam.tanaka.102@mail.example,+1 555 537 3324,US,free,05/01/2026,True
+CU1103,Ethan Tanaka,ethan.tanaka.103@mail.example,+1 555 853 6962,DE,free,2025-01-29,False
+CU1104,  MIA HADDAD ,mia.haddad.104@mail.example,+1 555 594 6629,US,free,2026-05-05,False
+CU1105,Nina Haddad,nina.haddad.105@post.example,+1 555 679 4736,NL,free,2025-09-11,True
+CU1106,Liam Muller,LIAM.MULLER.106@MAIL.EXAMPLE,+1 555 729 3144,GB,premium,2025-06-17,False
+CU1107,Mia Muller,mia.muller.107@mail.example,+1 555 774 7952,IN,free,2025-01-31,False
+CU1108,  LIAM HADDAD ,liam.haddad.108@mail.example,+1 555 828 4679,DE,standard,2025-01-22,True
+CU1109,Isla Kowalski,isla.kowalski.109@post.example,+1 555 646 5508,usa,premium,2025-07-19,False
+CU1110,Zoe Silva,zoe.silva.110@post.example,+1 555 460 3645,NL,standard,2026-05-02,False
+CU1111,Nina Tanaka,nina.tanaka.111@post.example,+1 555 167 2628,GB,free,2025-03-08,False
+CU1112,Liam Haddad,liam.haddad.112@post.example,+1 555 309 4057,DE,free,2025-08-24,False
+CU1113,Liam Kowalski,liam.kowalski.113@post.example,+1 555 729 9123,IN,free,2025-05-27,True
+CU1114,Liam Kowalski,liam.kowalski.114@mail.example,+1 555 875 6390,DE,free,2026-04-08,True
+CU1115,Ethan Silva,ethan.silva.115@post.example,+1 555 636 6783,FR,free,2025-12-05,False
+CU1116,Zoe Silva,zoe.silva.116@post.example,+1 555 760 4531,FR,free,2026-02-04,True
+CU1117,Omar Muller,OMAR.MULLER.117@POST.EXAMPLE,+1 555 105 4812,FR,standard,2025-01-15,False
+CU1118,  KAI SILVA ,kai.silva.118@inbox.example,+1 555 269 8060,GB,free,2025-11-03,False
+CU1119,Isla Silva,isla.silva.119@post.example,+1 555 114 2732,DE,premium,2025-08-29,True
+CU1120,Nina Novak,x y@z.example,+1 555 120 7490,DE,standard,2025-04-06,True
+CU1121,Ethan Bennett,ethan.bennett.121@inbox.example,+1 555 801 5207,IN,standard,2026-02-07,True
+CU1122,  LIAM MULLER ,LIAM.MULLER.122@MAIL.EXAMPLE,+1 555 163 1610,GB,standard,2025-09-09,True
+CU1123,Noah Haddad,noah.haddad.123@inbox.example,+1 555 505 5538,NL,standard,2026-02-27,False
+CU1124,Ethan Muller,ethan.muller.124@mail.example,+1 555 125 9070,DE,standard,07/11/2025,False
+CU1125,Kai Silva,kai.silva.125@mail.example,+1 555 400 3345,NL,free,2025-11-21,True
+CU1126,  ETHAN OKAFOR ,ethan.okafor.126@mail.example,+1 555 879 6709,IN,free,2025-05-13,False
+CU1127,Noah Haddad,noah.haddad.127@mail.example,+1 555 646 7695,FR,premium,2026-02-12,True
+CU1128,Omar Tanaka,omar.tanaka.128@inbox.example,+1 555 632 4072,NL,free,2025-12-31,False
+CU1129,Isla Kowalski,isla.kowalski.129@inbox.example,+1 555 775 4486,GB,free,2025-10-29,False
+CU1130,Omar Muller,omar.muller.130@post.example,+1 555 997 1215,GB,free,2025-09-24,False
+CU1131,Ava Bennett,ava.bennett.131@mail.example,+1 555 754 2769, united kingdom ,free,2025-08-29,True
+CU1132,Zoe Muller,zoe.muller.132@post.example,+1 555 651 4970,US,free,2026-01-23,False
+CU1133,Ethan Okafor,ethan.okafor.133@post.example,+1 555 391 7416,NL,standard,2025-04-13,True
+CU1134,  KAI TANAKA ,kai.tanaka.134@post.example,+1 555 966 9410,IN,free,2025-09-11,False
+CU1135,Ethan Haddad,ethan.haddad.135@inbox.example,+1 555 427 3367,GB,premium,2026-02-09,False
+CU1136,Nina Bennett,nina.bennett.136@mail.example,+1 555 152 6441,U.S.,free,2025-01-03,False
+CU1137,  ETHAN MULLER ,ethan.muller.137@mail.example,+1 555 448 1572,DE,standard,2026-03-29,True
+CU1138,Ethan Kowalski,ethan.kowalski.138@mail.example,+1 555 935 1789,GB,standard,2025-07-19,False
+CU1139,Kai Novak,kai.novak.139@mail.example,+1 555 679 9069,NL,premium,2025-05-06,False
+CU1140,Ava Muller,AVA.MULLER.140@INBOX.EXAMPLE,+1 555 673 4235,NL,free,2025-08-14,False
+CU1141,Mia Muller,mia.muller.141@mail.example,+1 555 886 1025,IN,premium,2025-04-21,False
+CU1142,Nina Okafor,nina.okafor.142@mail.example,+1 555 690 4375,US,standard,2025-05-23,False
+CU1143,Mia Kowalski,mia.kowalski.143@inbox.example,+1 555 158 8318,FR,Premium,2025-02-22,True
+CU1144,Isla Tanaka,isla.tanaka.144@inbox.example,+1 555 695 4032,IN,free,2025-02-27,False
+CU1145,Isla Haddad,isla.haddad.145@post.example,+1 555 318 6850,NL,free,2025-10-02,False
+CU1146,Nina Kowalski,nina.kowalski.146@mail.example,+1 555 382 3892,GB,standard,2025-09-17,True
+CU1147,Nina Okafor,nina.okafor.147@inbox.example,12,DE,free,2025-04-11,False
+CU1148,Kai Muller,kai.muller.148@inbox.example,+1 555 943 4509,US,standard,2025-04-21,True
+CU1149,Zoe Kowalski,zoe.kowalski.149@inbox.example,+1 555 525 2016,DE,free,2025-03-18,True
+CU1150,Mia Tanaka,mia.tanaka.150@post.example,+1 555 429 9597, united kingdom ,free,2025-05-25,True
+CU1151,Liam Novak,liam.novak.151@inbox.example,+1 555 802 3889,US,free,2025-04-04,False
+CU1152,Kai Bennett,kai.bennett.152@inbox.example,+1 555 456 4990,FR,free,2026-02-24,False
+CU1153,Nina Bennett,nina.bennett.153@inbox.example,+1 555 915 7466,NL,standard,2026-02-27,False
+CU1154,Liam Novak,liam.novak.154@post.example,+1 555 861 9610,NL,Premium,2026-04-10,True
+CU1155,Zoe Muller,zoe.muller.155@mail.example,+1 555 382 8892,NL,standard,2025-06-06,False
+CU1156,Zoe Tanaka,zoe.tanaka.156@post.example,+1 555 311 9748,GB,free,2026-04-18,True
+CU1157,Noah Silva,noah.silva.157@inbox.example,+1 555 782 6468,IN,standard,2025-07-04,False
+CU1158,Ava Muller,ava.muller.158@mail.example,+1 555 813 2264,FR,standard,2025-11-20,False
+CU1159,Zoe Silva,zoe.silva.159@post.example,+1 555 104 5645,DE,premium,2025-01-22,True
+CU1160,Liam Kowalski,liam.kowalski.160@post.example,+1 555 253 6850,GB,standard,2025-08-03,False
+CU1161,Liam Kowalski,liam.kowalski.161@mail.example,+1 555 530 5101,GB,standard,2025-11-08,True
+CU1162,  ETHAN OKAFOR ,ethan.okafor.162@mail.example,+1 555 260 2523,DE,free,2026-04-10,True
+CU1163,Zoe Haddad,zoe.haddad.163@post.example,+1 555 225 7835,U.S.,free,2025-01-24,False
+CU1164,Ethan Kowalski,ethan.kowalski.164@mail.example,+1 555 824 1694,GB,standard,2026-03-28,False
+CU1165,Liam Novak,missing-at.example,+1 555 936 4999,FR,premium,2025-10-21,True
+CU1166,Kai Kowalski,kai.kowalski.166@mail.example,+1 555 928 4919,US,STANDARD,2026-02-14,True
+CU1167,Noah Silva,noah.silva.167@mail.example,+1 555 851 2371,FR,free,2026-01-21,False
+CU1168,  OMAR NOVAK ,OMAR.NOVAK.168@POST.EXAMPLE,+1 555 328 7488,DE,free,2025-08-06,False
+CU1169,Mia Silva,mia.silva.169@inbox.example,none,NL,free,2025-11-30,True
+CU1170,Mia Silva,mia.silva.170@inbox.example,+1 555 301 5441,DE,standard,2026-04-09,False
+CU1171,Liam Kowalski,liam.kowalski.171@post.example,+1 555 211 5057,FR,free,2025-11-18,False
+CU1172,Isla Kowalski,isla.kowalski.172@post.example,+1 555 177 7422,FR,free,2025-08-05,True
+CU1173,Isla Muller,isla.muller.173@post.example,+1 555 684 7938,US,premium,2026-02-01,False
+CU1174,Liam Silva,liam.silva.174@inbox.example,+1 555 531 1102,NL,free,2025-01-10,True
+CU1175,Zoe Bennett,zoe.bennett.175@mail.example,+1 555 113 4355,FR,standard,2026-01-13,False
+CU1176,Zoe Novak,ZOE.NOVAK.176@POST.EXAMPLE,+1 555 967 1706,FR,free,"November 11, 2025",False
+CU1177,Ava Tanaka,ava.tanaka.177@post.example,+1 555 569 3571,GB,free,2025-02-11,False
+CU1178,Ethan Novak,ETHAN.NOVAK.178@INBOX.EXAMPLE,+1 555 602 4582,DE,free,2025-07-27,False
+CU1179,Nina Okafor,nina.okafor.179@mail.example,+1 555 655 2237,usa,standard,2026-03-09,True
+CU1180,Ethan Bennett,ethan.bennett.180@post.example,+1 555 193 4024,GB,standard,2025-05-25,False
+CU1181,Omar Kowalski,omar.kowalski.181@post.example,+1 555 499 7026,NL,standard,2025-08-27,False
+CU1182,Ava Okafor,AVA.OKAFOR.182@INBOX.EXAMPLE,+1 555 473 6984,DE,premium,2025-05-15,False
+CU1183,Nina Muller,nina.muller.183@inbox.example,+1 555 810 3523,U.S.,STANDARD,2025-06-26,True
+CU1184,  OMAR NOVAK ,omar.novak.184@mail.example,+1 555 399 8025,NL,premium,2025-04-06,False
+CU1185,Isla Okafor,isla.okafor.185@post.example,+1 555 339 4029,US,standard,2025-04-07,False
+CU1186,Omar Kowalski,omar.kowalski.186@post.example,+1 555 952 4821,FR,free,2025-06-12,False
+CU1187,Ethan Tanaka,ethan.tanaka.187@inbox.example,+1 555 922 7689,IN,standard,2025-12-18,True
+CU1188,Kai Tanaka,kai.tanaka.188@mail.example,+1 555 154 3396,DE,premium,2025-07-21,True
+CU1189,Mia Okafor,mia.okafor.189@inbox.example,+1 555 177 7222,DE,premium,2025-05-26,True
+CU1190,Omar Okafor,omar.okafor.190@mail.example,+1 555 811 3631, united kingdom ,free,2025-02-10,False
+CU1191,Noah Muller,NOAH.MULLER.191@MAIL.EXAMPLE,+1 555 561 5684,FR,free,2025-01-15,False
+CU1192,Noah Okafor,noah.okafor.192@mail.example,+1 555 108 1743,NL,standard,2025-06-06,False
+CU1193,  OMAR SILVA ,omar.silva.193@inbox.example,+1 555 645 9093,NL,standard,2026-02-23,False
+CU1194,Zoe Bennett,ZOE.BENNETT.194@INBOX.EXAMPLE,+1 555 285 1719,FR,standard,2026-02-25,True
+CU1195,Nina Bennett,nina.bennett.195@mail.example,+1 555 360 8274,NL,free,2025-03-09,False
+CU1196,Liam Tanaka,liam.tanaka.196@inbox.example,+1 555 445 4566,US,free,2025-05-30,False
+CU1197,Mia Bennett,mia.bennett.197@mail.example,+1 555 138 7089,DE,free,2025-01-19,True
+CU1198,Omar Novak,omar.novak.198@post.example,+1 555 927 9098,GB,free,2025-08-28,False
+CU1199,Kai Bennett,kai.bennett.199@post.example,+1 555 572 5957,NL,free,2025-05-16,False
+CU1200,Nina Silva,nina.silva.200@inbox.example,+1 555 710 8236, united kingdom ,standard,2025-09-20,True
+CU1201,Mia Kowalski,mia.kowalski.201@inbox.example,+1 555 822 1398,FR,premium,2025-08-06,False
+CU1202,Mia Bennett,mia.bennett.202@post.example,555-CALL-ME,GB,standard,2025-06-11,False
+CU1203,Omar Haddad,omar.haddad.203@mail.example,+1 555 221 4976,IN,free,2025-06-02,False
+CU1204,Ava Okafor,ava.okafor.204@inbox.example,+1 555 648 3321,DE,standard,2025-03-11,True
+CU1205,Omar Novak,omar.novak.205@inbox.example,+1 555 483 5688,US,premium,2025-11-21,False
+CU1206,Mia Bennett,mia.bennett.206@mail.example,+1 555 756 7093,GB,free,2025-01-29,True
+CU1207,Nina Novak,nina.novak.207@inbox.example,+1 555 927 2145,NL,standard,2026-01-15,False
+CU1208,Ava Muller,ava.muller.208@inbox.example,+1 555 605 2273,DE,standard,2025-10-03,False
+CU1209,Liam Kowalski,liam.kowalski.209@post.example,+1 555 327 1101,US,free,2025-12-14,False
+CU1210,  OMAR TANAKA ,omar.tanaka.210@inbox.example,+1 555 570 9962,US,free,2026-04-20,True
+CU1211,Ava Novak,ava.novak.211@inbox.example,+1 555 327 8847,US,free,2025-08-06,True
+CU1212,Liam Tanaka,liam.tanaka.212@post.example,+1 555 247 6503,GB,standard,2025-13-40,False
+CU1213,Isla Muller,isla.muller.213@mail.example,+1 555 612 6375,US,free,2025-10-26,True
+CU1214,Ava Kowalski,ava.kowalski.214@inbox.example,+1 555 214 3448,FR,free,2025-05-14,True
+CU1215,Isla Novak,isla.novak.215@post.example,+1 555 480 6110,GB,STANDARD,2025-08-15,True
+CU1216,Liam Haddad,liam.haddad.216@inbox.example,+1 555 222 4746,DE,free,2025-11-09,True
+CU1217,Mia Novak,mia.novak.217@inbox.example,+1 555 645 2757,IN,premium,2025-03-09,True
+CU1218,Ava Haddad,ava.haddad.218@post.example,+1 555 163 1648,DE,premium,2025-12-15,False
+CU1219,  ETHAN OKAFOR ,ethan.okafor.219@mail.example,+1 555 992 5368,IN,premium,2026-04-12,False
+CU9,Ethan Okafor,ethan.okafor.4@post.example,+1 555 517 3621,DE,standard,2026-01-29,True
+CU9,Zoe Novak,zoe.novak.10@mail.example,+1 555 110 9330,US,free,2025-09-02,False
+CU9,Isla Novak,isla.novak.20@mail.example,+1 555 329 5339,IN,free,2025-03-15,True
+CU9,Ava Silva,ava.silva.30@mail.example,+1 555 852 1522,usa,free,2025-02-02,True

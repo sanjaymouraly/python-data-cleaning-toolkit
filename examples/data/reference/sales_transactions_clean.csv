@@ -1,0 +1,501 @@
+transaction_id,order_date,customer_id,product,category,quantity,unit_price,total,currency,region,shipping_weight,weight_unit,salesperson,status,notes
+T20000,2026-06-07,CU4949,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,west,6.4,kg,Amara Okafor,completed,Order 20000
+T20001,2026-07-02,CU7456,Mechanical Keyboard,Electronics,4,80.1,320.4,USD,east,3.8,kg,Amara Okafor,completed,
+T20002,2026-07-07,CU6794,Wireless Mouse,Electronics,5,24.5,122.5,USD,west,0.6,kg,Carla Mendes,completed,
+T20003,2026-01-16,CU8723,Standing Desk,Furniture,5,493.9,2469.5,USD,south,140.0,kg,Dmitri Volkov,pending,
+T20004,2026-04-17,CU9037,Laptop Pro 14,Electronics,5,1169.1,5845.5,USD,west,8.0,kg,Dmitri Volkov,completed,
+T20005,2026-02-07,CU7689,Wireless Mouse,Electronics,3,22.05,66.15,USD,west,0.36,kg,Dmitri Volkov, refunded,
+T20006,2026-01-19,CU5225,Desk Lamp,Furniture,2,31.95,63.9,USD,north,2.2,kg,Carla Mendes,completed,
+T20007,2026-06-10,CU9461,Wireless Mouse,Electronics,3,24.5,73.5,USD,north,0.36,kg,Elena Rossi,pending,
+T20008,2026-04-15,CU8242,Monitor 27in,Electronics,5,306.9,1534.5,USD,south,27.0,kg,Elena Rossi,completed,
+T20009,2026-02-17,CU8243,Office Chair,Furniture,5,189.99,949.95,USD,west,72.5,kg,Dmitri Volkov,completed,Order 20009
+T20010,2026-05-14,CU5129,Office Chair,Furniture,4,189.99,759.96,USD,east,58.0,kg,Amara Okafor,completed,Order 20010
+T20011,2026-04-24,CU8694,Wireless Mouse,Electronics,4,24.5,98.0,USD,north,0.48,kg,Dmitri Volkov,completed,
+T20012,2026-07-10,CU3735,Laptop Pro 14,Electronics,3,1169.1,3507.3,USD,north,4.8,kg,Ben Liu,completed,
+T20013,2026-07-24,CU1312,Standing Desk,Furniture,5,449.0,2245.0,USD,west,140.0,kg,Amara Okafor,completed,
+T20014,2026-01-31,CU6012,Standing Desk,Furniture,4,449.0,1796.0,USD,west,112.0,kg,Elena Rossi,completed,Order 20014
+T20015,2026-02-10,CU4008,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,north,1.9,kg,Amara Okafor,pending,
+T20016,2026-08-05,CU5508,Mechanical Keyboard,Electronics,1,97.9,97.9,USD,north,0.95,kg,Carla Mendes,completed,
+T20017,2026-03-14,CU7152,Mechanical Keyboard,Electronics,2,80.1,160.2,USD,east,1.9,kg,Ben Liu,completed,
+T20018,2026-03-29,CU9176,Office Chair,Furniture,5,189.99,949.95,USD,east,72.5,kg,Carla Mendes, refunded,Order 20018
+T20019,2026-06-22,CU8100,Office Chair,Furniture,2,189.99,379.98,USD,east,29.0,kg,Ben Liu,completed,Order 20019
+T20020,2026-06-18,CU2821,Wireless Mouse,Electronics,3,22.05,66.15,USD,south,0.36,kg,Elena Rossi,completed,Order 20020
+T20021,2026-07-02,CU5434,Notebook Pack,Stationery,1,11.61,11.61,USD,east,0.8,kg,Carla Mendes,completed,
+T20022,2026-05-31,CU1759,Laptop Pro 14,Electronics,4,1169.1,4676.4,USD,south,6.4,kg,Dmitri Volkov,completed,
+T20023,2026-02-04,CU7098,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,north,6.4,kg,Carla Mendes,completed,Order 20023
+T20024,2026-04-18,CU4121,Desk Lamp,Furniture,3,31.95,95.85,USD,east,3.3,kg,Ben Liu, refunded,
+T20025,2026-07-07,CU1584,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,south,4.8,kg,Carla Mendes,completed,Order 20025
+T20026,2026-05-11,CU5260,Wireless Mouse,Electronics,3,26.95,80.85,USD,south,0.36,kg,Elena Rossi,completed,
+T20027,2026-01-06,CU4272,Office Chair,Furniture,2,208.99,417.98,USD,north,29.0,kg,Elena Rossi,completed,
+T20028,2026-06-09,CU7049,Office Chair,Furniture,1,189.99,189.99,USD,south,14.5,kg,Ben Liu,pending,Order 20028
+T20029,2026-01-26,CU6531,Mechanical Keyboard,Electronics,2,97.9,195.8,USD,west,1.9,kg,Ben Liu,completed,
+T20030,2026-03-16,CU8467,Notebook Pack,Stationery,2,12.9,25.8,USD,west,1.6,kg,Elena Rossi, refunded,
+T20031,2026-05-04,CU9148,Office Chair,Furniture,4,189.99,759.96,USD,west,58.0,kg,Elena Rossi,completed,
+T20032,2026-08-21,CU9930,Office Chair,Furniture,3,189.99,569.97,USD,west,43.5,kg,Amara Okafor,cancelled,Order 20032
+T20033,2026-05-05,CU5225,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,north,0.95,kg,Dmitri Volkov,completed,
+T20034,2026-06-26,CU7720,Desk Lamp,Furniture,1,35.5,35.5,USD,south,1.1,kg,Amara Okafor,completed,
+T20035,2026-07-19,CU9026,Desk Lamp,Furniture,1,35.5,35.5,USD,east,1.1,kg,Amara Okafor,completed,Order 20035
+T20036,2026-03-09,CU3792,Laptop Pro 14,Electronics,1,1428.9,1428.9,USD,west,1.6,kg,Ben Liu,completed,
+T20037,2026-01-04,CU2568,Desk Lamp,Furniture,5,35.5,177.5,USD,south,5.5,kg,Amara Okafor,completed,
+T20038,2026-08-11,CU7247,Office Chair,Furniture,3,170.99,512.97,USD,east,43.5,kg,Carla Mendes,pending,Order 20038
+T20039,2026-06-27,CU8432,Wireless Mouse,Electronics,1,24.5,24.5,USD,south,0.12,kg,Amara Okafor,cancelled,
+T20040,2026-02-01,CU5396,Desk Lamp,Furniture,2,35.5,71.0,USD,east,2.2,kg,Ben Liu,completed,Order 20040
+T20041,2026-01-06,CU6371,Desk Lamp,Furniture,3,35.5,106.5,USD,north,3.3,kg,Dmitri Volkov,completed,
+T20042,2026-01-02,CU9695,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,east,2.85,kg,Amara Okafor,pending,
+T20043,2026-07-08,CU8621,Desk Lamp,Furniture,4,35.5,142.0,USD,east,4.4,kg,Amara Okafor,pending,Order 20043
+T20044,2026-03-22,CU5776,Standing Desk,Furniture,2,404.1,808.2,USD,east,56.0,kg,Elena Rossi,completed,
+T20045,2026-03-31,CU9337,Monitor 27in,Electronics,1,279.0,279.0,USD,north,5.4,kg,Dmitri Volkov,cancelled,
+T20046,2026-03-06,CU3129,Notebook Pack,Stationery,2,14.19,28.38,USD,east,1.6,kg,Elena Rossi,completed,
+T20047,2026-05-23,CU4220,Monitor 27in,Electronics,3,279.0,837.0,USD,north,16.2,kg,Elena Rossi,completed,
+T20048,2026-05-24,CU2489,Desk Lamp,Furniture,5,35.5,177.5,USD,south,5.5,kg,Carla Mendes,completed,
+T20049,2026-01-14,CU2753,Wireless Mouse,Electronics,4,24.5,98.0,USD,west,0.48,kg,Amara Okafor,completed,Order 20049
+T20050,2026-07-18,CU3861,Monitor 27in,Electronics,2,306.9,613.8,USD,east,10.8,kg,Dmitri Volkov,cancelled,
+T20051,2026-02-13,CU9001,Desk Lamp,Furniture,3,35.5,106.5,USD,north,3.3,kg,Ben Liu,completed,
+T20052,2026-01-02,CU4362,Office Chair,Furniture,1,208.99,208.99,USD,east,14.5,kg,Elena Rossi,pending,
+T20053,2026-08-10,CU7203,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,west,4.8,kg,Elena Rossi,cancelled,Order 20053
+T20054,2026-05-20,CU8014,Office Chair,Furniture,5,170.99,854.95,USD,east,72.5,kg,Dmitri Volkov,completed,
+T20055,2026-05-04,CU9701,Monitor 27in,Electronics,2,306.9,613.8,USD,west,10.8,kg,Carla Mendes,completed,Order 20055
+T20056,2026-01-15,CU2257,Wireless Mouse,Electronics,2,24.5,49.0,USD,south,0.24,kg,Amara Okafor,completed,
+T20057,2026-03-29,CU7631,Standing Desk,Furniture,3,449.0,1347.0,USD,south,84.0,kg,Ben Liu,completed,
+T20058,2026-06-11,CU9246,Monitor 27in,Electronics,5,306.9,1534.5,USD,south,27.0,kg,Dmitri Volkov,completed,Order 20058
+T20059,2026-06-06,CU2821,Office Chair,Furniture,3,208.99,626.97,USD,east,43.5,kg,Carla Mendes,completed,
+T20060,2026-01-09,CU2821,Wireless Mouse,Electronics,4,24.5,98.0,USD,east,0.48,kg,Carla Mendes,completed,Order 20060
+T20061,2026-01-23,CU6596,Monitor 27in,Electronics,4,251.1,1004.4,USD,east,21.6,kg,Amara Okafor,cancelled,
+T20062,2026-02-10,CU8207,Desk Lamp,Furniture,5,35.5,177.5,USD,east,5.5,kg,Carla Mendes,pending,Order 20062
+T20063,2026-03-02,CU7495,Monitor 27in,Electronics,1,279.0,279.0,USD,north,5.4,kg,Amara Okafor,completed,
+T20064,2026-01-02,CU6151,Wireless Mouse,Electronics,3,24.5,73.5,USD,south,0.36,kg,Dmitri Volkov,pending,Order 20064
+T20065,2026-04-29,CU3121,Notebook Pack,Stationery,3,12.9,38.7,USD,north,2.4,kg,Elena Rossi,completed,
+T20066,2026-04-28,CU6920,Mechanical Keyboard,Electronics,1,80.1,80.1,USD,south,0.95,kg,Elena Rossi,completed,
+T20067,2026-08-04,CU8353,Monitor 27in,Electronics,4,251.1,1004.4,USD,east,21.6,kg,Ben Liu,completed,
+T20068,2026-08-19,CU2329,Office Chair,Furniture,1,189.99,189.99,USD,west,14.5,kg,Carla Mendes,completed,Order 20068
+T20069,2026-05-13,CU9540,Standing Desk,Furniture,1,493.9,493.9,USD,south,28.0,kg,Dmitri Volkov,completed,
+T20070,2026-01-02,CU7459,Mechanical Keyboard,Electronics,5,97.9,489.5,USD,west,4.75,kg,Carla Mendes,cancelled,Order 20070
+T20071,2026-01-30,CU5303,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,north,1.6,kg,Dmitri Volkov,completed,
+T20072,2026-04-14,CU3657,Mechanical Keyboard,Electronics,5,97.9,489.5,USD,south,4.75,kg,Ben Liu,completed,Order 20072
+T20073,2026-07-07,CU5903,Standing Desk,Furniture,4,449.0,1796.0,USD,south,112.0,kg,Elena Rossi,cancelled,
+T20074,2026-01-11,CU1957,Monitor 27in,Electronics,5,251.1,1255.5,USD,west,27.0,kg,Amara Okafor,completed,
+T20075,2026-08-04,CU8770,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,north,3.8,kg,Ben Liu,completed,Order 20075
+T20076,2026-01-04,CU9194,Monitor 27in,Electronics,1,279.0,279.0,USD,east,5.4,kg,Elena Rossi,completed,
+T20077,2026-05-26,CU9819,Laptop Pro 14,Electronics,5,1428.9,7144.5,USD,west,8.0,kg,Ben Liu,pending,
+T20078,2026-08-21,CU9349,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,west,4.75,kg,Elena Rossi,pending,
+T20079,2026-02-18,CU2023,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,east,2.85,kg,Carla Mendes,pending,Order 20079
+T20080,2026-04-18,CU2396,Laptop Pro 14,Electronics,5,1428.9,7144.5,USD,east,8.0,kg,Amara Okafor,completed,Order 20080
+T20081,2026-08-24,CU7744,Wireless Mouse,Electronics,3,22.05,66.15,USD,east,0.36,kg,Amara Okafor,completed,
+T20082,2026-04-21,CU7385,Wireless Mouse,Electronics,5,24.5,122.5,USD,north,0.6,kg,Ben Liu,completed,Order 20082
+T20083,2026-04-21,CU5886,Laptop Pro 14,Electronics,3,1169.1,3507.3,USD,south,4.8,kg,Dmitri Volkov,completed,
+T20084,2026-05-10,CU3711,Wireless Mouse,Electronics,5,24.5,122.5,USD,east,0.6,kg,Carla Mendes,completed,Order 20084
+T20085,2026-02-05,CU5154,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,east,0.95,kg,Carla Mendes,completed,
+T20086,2026-08-16,CU3502,Desk Lamp,Furniture,1,35.5,35.5,USD,south,1.1,kg,Dmitri Volkov,completed,Order 20086
+T20087,2026-04-09,CU2380,Standing Desk,Furniture,5,449.0,2245.0,USD,west,140.0,kg,Ben Liu,completed,
+T20088,2026-03-13,CU4765,Desk Lamp,Furniture,1,35.5,35.5,USD,south,1.1,kg,Amara Okafor,completed,
+T20089,2026-06-18,CU5922,Wireless Mouse,Electronics,3,22.05,66.15,USD,east,0.36,kg,Dmitri Volkov,completed,Order 20089
+T20090,2026-02-17,CU4882,Office Chair,Furniture,3,189.99,569.97,USD,east,43.5,kg,Carla Mendes,completed,Order 20090
+T20091,2026-08-01,CU2154,Office Chair,Furniture,3,208.99,626.97,USD,west,43.5,kg,Carla Mendes,completed,Order 20091
+T20092,2026-05-05,CU8535,Wireless Mouse,Electronics,2,24.5,49.0,USD,south,0.24,kg,Amara Okafor,completed,Order 20092
+T20093,2026-01-14,CU1698,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,east,8.0,kg,Ben Liu,completed,
+T20094,2026-08-05,CU1132,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,west,6.4,kg,Dmitri Volkov,completed,
+T20095,2026-05-25,CU7015,Monitor 27in,Electronics,2,279.0,558.0,USD,east,10.8,kg,Ben Liu, refunded,Order 20095
+T20096,2026-04-12,CU3798,Standing Desk,Furniture,4,404.1,1616.4,USD,east,112.0,kg,Amara Okafor,completed,Order 20096
+T20097,2026-01-03,CU7073,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,west,1.9,kg,Carla Mendes,completed,
+T20098,2026-08-09,CU9901,Standing Desk,Furniture,5,493.9,2469.5,USD,east,140.0,kg,Ben Liu, refunded,
+T20099,2026-04-18,CU8585,Monitor 27in,Electronics,3,279.0,837.0,USD,south,16.2,kg,Amara Okafor,pending,
+T20100,2026-08-09,CU2355,Standing Desk,Furniture,3,449.0,1347.0,USD,north,84.0,kg,Ben Liu,completed,
+T20101,2026-03-12,CU2749,Desk Lamp,Furniture,1,35.5,35.5,USD,west,1.1,kg,Carla Mendes,completed,
+T20102,2026-07-21,CU8591,Office Chair,Furniture,2,208.99,417.98,USD,east,29.0,kg,Carla Mendes,completed,Order 20102
+T20103,2026-01-14,CU7523,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,east,3.8,kg,Carla Mendes,completed,Order 20103
+T20104,2026-05-08,CU7916,Office Chair,Furniture,3,170.99,512.97,USD,west,43.5,kg,Ben Liu,cancelled,
+T20105,2026-07-24,CU4457,Notebook Pack,Stationery,1,12.9,12.9,USD,east,0.8,kg,Carla Mendes,completed,
+T20106,2026-08-28,CU9255,Laptop Pro 14,Electronics,2,1169.1,2338.2,USD,east,3.2,kg,Ben Liu,completed,
+T20107,2026-01-06,CU6471,Wireless Mouse,Electronics,2,26.95,53.9,USD,east,0.24,kg,Carla Mendes,completed,
+T20108,2026-04-10,CU3501,Notebook Pack,Stationery,1,12.9,12.9,USD,east,0.8,kg,Carla Mendes, refunded,Order 20108
+T20109,2026-04-25,CU9861,Mechanical Keyboard,Electronics,5,80.1,400.5,USD,east,4.75,kg,Elena Rossi,pending,Order 20109
+T20110,2026-04-21,CU8800,Notebook Pack,Stationery,4,12.9,51.6,USD,north,3.2,kg,Carla Mendes,completed,
+T20111,2026-06-06,CU4751,Mechanical Keyboard,Electronics,5,97.9,489.5,USD,north,4.75,kg,Elena Rossi,completed,Order 20111
+T20112,2026-06-02,CU4118,Desk Lamp,Furniture,4,35.5,142.0,USD,north,4.4,kg,Ben Liu,pending,
+T20113,2026-08-25,CU8737,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,south,8.0,kg,Elena Rossi,completed,Order 20113
+T20114,2026-02-23,CU5998,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,west,0.95,kg,Ben Liu,pending,
+T20115,2026-03-31,CU9577,Desk Lamp,Furniture,1,35.5,35.5,USD,south,1.1,kg,Amara Okafor,completed,Order 20115
+T20116,2026-01-02,CU8788,Mechanical Keyboard,Electronics,4,80.1,320.4,USD,east,3.8,kg,Ben Liu,completed,
+T20117,2026-05-30,CU3102,Monitor 27in,Electronics,1,306.9,306.9,USD,south,5.4,kg,Amara Okafor,completed,Order 20117
+T20118,2026-07-02,CU4611,Notebook Pack,Stationery,1,11.61,11.61,USD,west,0.8,kg,Dmitri Volkov,completed,Order 20118
+T20119,2026-03-25,CU8015,Mechanical Keyboard,Electronics,3,97.9,293.7,USD,west,2.85,kg,Ben Liu,completed,
+T20120,2026-05-12,CU8978,Laptop Pro 14,Electronics,2,1428.9,2857.8,USD,north,3.2,kg,Dmitri Volkov,completed,Order 20120
+T20121,2026-07-13,CU5801,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,east,4.8,kg,Ben Liu,completed,
+T20122,2026-02-14,CU9977,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,east,4.8,kg,Dmitri Volkov,completed,Order 20122
+T20123,2026-04-30,CU4096,Notebook Pack,Stationery,2,12.9,25.8,USD,north,1.6,kg,Ben Liu,completed,
+T20124,2026-03-14,CU5079,Notebook Pack,Stationery,1,14.19,14.19,USD,east,0.8,kg,Elena Rossi,completed,Order 20124
+T20125,2026-06-30,CU5527,Office Chair,Furniture,5,189.99,949.95,USD,west,72.5,kg,Ben Liu,cancelled,
+T20126,2026-08-02,CU9180,Notebook Pack,Stationery,2,12.9,25.8,USD,east,1.6,kg,Elena Rossi,completed,Order 20126
+T20127,2026-03-13,CU8690,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,south,0.95,kg,Ben Liu,completed,Order 20127
+T20128,2026-01-15,CU6052,Laptop Pro 14,Electronics,2,1299.0,2598.0,USD,west,3.2,kg,Carla Mendes,completed,
+T20129,2026-08-27,CU6300,Monitor 27in,Electronics,5,251.1,1255.5,USD,south,27.0,kg,Elena Rossi,cancelled,Order 20129
+T20130,2026-02-11,CU6058,Standing Desk,Furniture,1,449.0,449.0,USD,north,28.0,kg,Carla Mendes, refunded,
+T20131,2026-04-14,CU2256,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,west,4.75,kg,Elena Rossi,completed,
+T20132,2026-05-18,CU1589,Laptop Pro 14,Electronics,2,1428.9,2857.8,USD,south,3.2,kg,Ben Liu,completed,
+T20133,2026-01-27,CU6719,Notebook Pack,Stationery,5,12.9,64.5,USD,west,4.0,kg,Amara Okafor,completed,
+T20134,2026-04-28,CU4546,Desk Lamp,Furniture,2,35.5,71.0,USD,south,2.2,kg,Amara Okafor,completed,Order 20134
+T20135,2026-01-01,CU1999,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,south,1.6,kg,Carla Mendes,completed,
+T20136,2026-04-23,CU8569,Notebook Pack,Stationery,4,12.9,51.6,USD,south,3.2,kg,Ben Liu,completed,
+T20137,2026-06-13,CU3999,Office Chair,Furniture,5,189.99,949.95,USD,east,72.5,kg,Ben Liu,cancelled,
+T20138,2026-07-27,CU7403,Standing Desk,Furniture,3,449.0,1347.0,USD,north,84.0,kg,Dmitri Volkov,completed,Order 20138
+T20139,2026-01-03,CU9395,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,west,1.6,kg,Amara Okafor,completed,Order 20139
+T20140,2026-01-22,CU6122,Standing Desk,Furniture,2,449.0,898.0,USD,east,56.0,kg,Dmitri Volkov,completed,Order 20140
+T20141,2026-05-29,CU5119,Monitor 27in,Electronics,3,279.0,837.0,USD,west,16.2,kg,Dmitri Volkov,cancelled,
+T20142,2026-05-14,CU5089,Wireless Mouse,Electronics,5,26.95,134.75,USD,east,0.6,kg,Elena Rossi,completed,Order 20142
+T20143,2026-03-18,CU5933,Desk Lamp,Furniture,1,31.95,31.95,USD,north,1.1,kg,Dmitri Volkov,completed,
+T20144,2026-07-17,CU1702,Mechanical Keyboard,Electronics,2,97.9,195.8,USD,north,1.9,kg,Dmitri Volkov,completed,
+T20145,2026-06-24,CU8606,Office Chair,Furniture,4,170.99,683.96,USD,south,58.0,kg,Dmitri Volkov,completed,Order 20145
+T20146,2026-02-26,CU2134,Wireless Mouse,Electronics,3,22.05,66.15,USD,north,0.36,kg,Dmitri Volkov,completed,
+T20147,2026-08-27,CU3384,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,west,0.95,kg,Amara Okafor, refunded,
+T20148,2026-05-18,CU9074,Standing Desk,Furniture,1,449.0,449.0,USD,west,28.0,kg,Carla Mendes,completed,
+T20149,2026-01-13,CU5024,Notebook Pack,Stationery,4,12.9,51.6,USD,north,3.2,kg,Ben Liu,completed,Order 20149
+T20150,2026-01-13,CU6360,Wireless Mouse,Electronics,1,24.5,24.5,USD,north,0.12,kg,Elena Rossi,completed,Order 20150
+T20151,2026-05-13,CU5726,Monitor 27in,Electronics,1,279.0,279.0,USD,west,5.4,kg,Dmitri Volkov,pending,
+T20152,2026-06-22,CU9849,Office Chair,Furniture,4,189.99,759.96,USD,south,58.0,kg,Elena Rossi,completed,Order 20152
+T20153,2026-05-05,CU4851,Notebook Pack,Stationery,2,12.9,25.8,USD,west,1.6,kg,Amara Okafor,cancelled,
+T20154,2026-04-23,CU2344,Wireless Mouse,Electronics,4,24.5,98.0,USD,west,0.48,kg,Ben Liu,completed,Order 20154
+T20155,2026-08-08,CU3193,Wireless Mouse,Electronics,5,24.5,122.5,USD,south,0.6,kg,Carla Mendes,pending,Order 20155
+T20156,2026-04-10,CU5652,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,east,1.9,kg,Dmitri Volkov,pending,
+T20157,2026-01-26,CU8007,Mechanical Keyboard,Electronics,3,97.9,293.7,USD,east,2.85,kg,Elena Rossi,pending,
+T20158,2026-04-14,CU7691,Laptop Pro 14,Electronics,2,1299.0,2598.0,USD,north,3.2,kg,Ben Liu,completed,Order 20158
+T20159,2026-08-02,CU6658,Desk Lamp,Furniture,5,35.5,177.5,USD,east,5.5,kg,Ben Liu,completed,
+T20160,2026-01-03,CU6415,Standing Desk,Furniture,3,449.0,1347.0,USD,west,84.0,kg,Carla Mendes,completed,
+T20161,2026-04-05,CU7919,Standing Desk,Furniture,2,449.0,898.0,USD,south,56.0,kg,Amara Okafor,completed,
+T20162,2026-06-24,CU3192,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,north,8.0,kg,Carla Mendes,cancelled,
+T20163,2026-02-18,CU9779,Monitor 27in,Electronics,3,279.0,837.0,USD,south,16.2,kg,Carla Mendes,completed,
+T20164,2026-01-03,CU5332,Wireless Mouse,Electronics,1,24.5,24.5,USD,west,0.12,kg,Ben Liu,completed,
+T20165,2026-03-02,CU2218,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,south,1.9,kg,Dmitri Volkov,cancelled,Order 20165
+T20166,2026-05-28,CU9840,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,west,8.0,kg,Carla Mendes,completed,
+T20167,2026-05-13,CU4826,Laptop Pro 14,Electronics,2,1299.0,2598.0,USD,west,3.2,kg,Elena Rossi,completed,
+T20168,2026-01-20,CU3279,Notebook Pack,Stationery,1,12.9,12.9,USD,north,0.8,kg,Amara Okafor,completed,Order 20168
+T20169,2026-03-13,CU8630,Monitor 27in,Electronics,4,279.0,1116.0,USD,west,21.6,kg,Carla Mendes,pending,Order 20169
+T20170,2026-05-25,CU9472,Laptop Pro 14,Electronics,2,1299.0,2598.0,USD,north,3.2,kg,Ben Liu,completed,
+T20171,2026-07-23,CU6558,Desk Lamp,Furniture,1,35.5,35.5,USD,east,1.1,kg,Carla Mendes,completed,
+T20172,2026-02-02,CU8661,Desk Lamp,Furniture,4,35.5,142.0,USD,west,4.4,kg,Dmitri Volkov,completed,
+T20173,2026-02-28,CU3664,Office Chair,Furniture,2,189.99,379.98,USD,north,29.0,kg,Elena Rossi,cancelled,Order 20173
+T20174,2026-03-09,CU5414,Office Chair,Furniture,3,189.99,569.97,USD,east,43.5,kg,Ben Liu,completed,
+T20175,2026-01-31,CU2642,Notebook Pack,Stationery,2,14.19,28.38,USD,north,1.6,kg,Carla Mendes, refunded,
+T20176,2026-08-19,CU2869,Office Chair,Furniture,3,189.99,569.97,USD,south,43.5,kg,Elena Rossi,completed,Order 20176
+T20177,2026-03-19,CU9237,Laptop Pro 14,Electronics,1,1169.1,1169.1,USD,north,1.6,kg,Carla Mendes,completed,
+T20178,2026-07-21,CU9896,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,west,0.95,kg,Elena Rossi,completed,
+T20179,2026-08-09,CU7136,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,east,4.75,kg,Amara Okafor,completed,Order 20179
+T20180,2026-01-13,CU7756,Mechanical Keyboard,Electronics,4,80.1,320.4,USD,west,3.8,kg,Elena Rossi,cancelled,
+T20181,2026-06-03,CU7784,Wireless Mouse,Electronics,2,24.5,49.0,USD,east,0.24,kg,Elena Rossi,completed,
+T20182,2026-07-11,CU2161,Standing Desk,Furniture,3,449.0,1347.0,USD,north,84.0,kg,Dmitri Volkov,completed,Order 20182
+T20183,2026-03-18,CU4725,Mechanical Keyboard,Electronics,4,80.1,320.4,USD,east,3.8,kg,Carla Mendes,completed,
+T20184,2026-05-28,CU9549,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,south,4.8,kg,Carla Mendes,completed,Order 20184
+T20185,2026-01-10,CU9890,Wireless Mouse,Electronics,3,24.5,73.5,USD,south,0.36,kg,Elena Rossi,pending,Order 20185
+T20186,2026-06-30,CU6939,Standing Desk,Furniture,3,449.0,1347.0,USD,south,84.0,kg,Ben Liu,completed,Order 20186
+T20187,2026-04-07,CU9047,Desk Lamp,Furniture,2,35.5,71.0,USD,north,2.2,kg,Dmitri Volkov,completed,Order 20187
+T20188,2026-02-15,CU6822,Office Chair,Furniture,3,189.99,569.97,USD,south,43.5,kg,Dmitri Volkov,completed,
+T20189,2026-01-23,CU3923,Standing Desk,Furniture,5,404.1,2020.5,USD,north,140.0,kg,Dmitri Volkov,completed,
+T20190,2026-07-13,CU2780,Desk Lamp,Furniture,2,35.5,71.0,USD,west,2.2,kg,Elena Rossi,completed,Order 20190
+T20191,2026-02-01,CU8839,Monitor 27in,Electronics,1,279.0,279.0,USD,west,5.4,kg,Amara Okafor,completed,Order 20191
+T20192,2026-06-27,CU2822,Desk Lamp,Furniture,5,39.05,195.25,USD,east,5.5,kg,Carla Mendes, refunded,Order 20192
+T20193,2026-03-03,CU3769,Mechanical Keyboard,Electronics,4,80.1,320.4,USD,north,3.8,kg,Ben Liu, refunded,
+T20194,2026-05-11,CU1209,Standing Desk,Furniture,4,449.0,1796.0,USD,south,112.0,kg,Dmitri Volkov,completed,
+T20195,2026-08-13,CU8624,Desk Lamp,Furniture,1,39.05,39.05,USD,south,1.1,kg,Ben Liu,completed,
+T20196,2026-07-15,CU4006,Standing Desk,Furniture,4,493.9,1975.6,USD,north,112.0,kg,Carla Mendes,cancelled,Order 20196
+T20197,2026-08-23,CU1188,Desk Lamp,Furniture,5,31.95,159.75,USD,west,5.5,kg,Dmitri Volkov,pending,
+T20198,2026-06-17,CU3161,Mechanical Keyboard,Electronics,3,80.1,240.3,USD,east,2.85,kg,Dmitri Volkov,completed,
+T20199,2026-04-09,CU3577,Office Chair,Furniture,2,189.99,379.98,USD,east,29.0,kg,Elena Rossi,cancelled,
+T20200,2026-01-10,CU4024,Office Chair,Furniture,1,189.99,189.99,USD,west,14.5,kg,Amara Okafor,completed,Order 20200
+T20201,2026-01-28,CU2037,Monitor 27in,Electronics,4,279.0,1116.0,USD,south,21.6,kg,Elena Rossi,completed,
+T20202,2026-04-07,CU6576,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,west,4.8,kg,Ben Liu,completed,
+T20203,2026-07-09,CU3244,Desk Lamp,Furniture,3,35.5,106.5,USD,south,3.3,kg,Elena Rossi,completed,
+T20204,2026-05-19,CU2587,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,south,4.75,kg,Carla Mendes,completed,Order 20204
+T20205,2026-06-06,CU1011,Notebook Pack,Stationery,4,14.19,56.76,USD,north,3.2,kg,Elena Rossi,completed,
+T20206,2026-01-29,CU9789,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,south,3.8,kg,Ben Liu,completed,
+T20207,2026-06-11,CU7867,Standing Desk,Furniture,2,449.0,898.0,USD,south,56.0,kg,Dmitri Volkov,pending,Order 20207
+T20208,2026-04-05,CU3893,Desk Lamp,Furniture,3,35.5,106.5,USD,east,3.3,kg,Dmitri Volkov,completed,Order 20208
+T20209,2026-02-04,CU6128,Monitor 27in,Electronics,2,306.9,613.8,USD,west,10.8,kg,Amara Okafor,completed,
+T20210,2026-05-03,CU1475,Office Chair,Furniture,1,189.99,189.99,USD,north,14.5,kg,Amara Okafor,pending,
+T20211,2026-06-06,CU7719,Standing Desk,Furniture,2,493.9,987.8,USD,south,56.0,kg,Amara Okafor,completed,Order 20211
+T20212,2026-05-13,CU5849,Office Chair,Furniture,5,189.99,949.95,USD,west,72.5,kg,Amara Okafor,completed,Order 20212
+T20213,2026-03-03,CU3945,Laptop Pro 14,Electronics,3,1169.1,3507.3,USD,north,4.8,kg,Carla Mendes,pending,
+T20214,2026-04-09,CU2972,Office Chair,Furniture,2,170.99,341.98,USD,north,29.0,kg,Dmitri Volkov,completed,
+T20215,2026-02-12,CU2460,Monitor 27in,Electronics,2,279.0,558.0,USD,north,10.8,kg,Elena Rossi,completed,Order 20215
+T20216,2026-08-26,CU6881,Monitor 27in,Electronics,1,279.0,279.0,USD,south,5.4,kg,Elena Rossi,cancelled,Order 20216
+T20217,2026-07-29,CU5089,Standing Desk,Furniture,5,449.0,2245.0,USD,east,140.0,kg,Ben Liu,completed,
+T20218,2026-01-02,CU6097,Office Chair,Furniture,4,170.99,683.96,USD,east,58.0,kg,Ben Liu,pending,
+T20219,2026-01-12,CU9377,Monitor 27in,Electronics,3,251.1,753.3,USD,south,16.2,kg,Carla Mendes,completed,
+T20220,2026-01-25,CU8438,Office Chair,Furniture,4,189.99,759.96,USD,east,58.0,kg,Amara Okafor,completed,
+T20221,2026-03-17,CU5053,Standing Desk,Furniture,1,449.0,449.0,USD,east,28.0,kg,Dmitri Volkov,completed,
+T20222,2026-05-24,CU9049,Laptop Pro 14,Electronics,2,1169.1,2338.2,USD,east,3.2,kg,Dmitri Volkov,cancelled,
+T20223,2026-04-25,CU8563,Wireless Mouse,Electronics,5,26.95,134.75,USD,south,0.6,kg,Amara Okafor,completed,
+T20224,2026-03-14,CU7115,Standing Desk,Furniture,1,449.0,449.0,USD,north,28.0,kg,Elena Rossi,completed,
+T20225,2026-02-12,CU1700,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,east,4.8,kg,Elena Rossi,completed,
+T20226,2026-05-07,CU4215,Wireless Mouse,Electronics,1,24.5,24.5,USD,south,0.12,kg,Elena Rossi,completed,Order 20226
+T20227,2026-08-12,CU7294,Notebook Pack,Stationery,1,12.9,12.9,USD,west,0.8,kg,Amara Okafor,completed,Order 20227
+T20228,2026-02-17,CU8670,Standing Desk,Furniture,1,493.9,493.9,USD,west,28.0,kg,Amara Okafor,completed,Order 20228
+T20229,2026-01-11,CU2889,Monitor 27in,Electronics,3,279.0,837.0,USD,north,16.2,kg,Ben Liu,cancelled,
+T20230,2026-08-10,CU2532,Desk Lamp,Furniture,5,39.05,195.25,USD,west,5.5,kg,Ben Liu,completed,Order 20230
+T20231,2026-04-02,CU8246,Standing Desk,Furniture,5,449.0,2245.0,USD,west,140.0,kg,Carla Mendes,completed,
+T20232,2026-08-24,CU1929,Wireless Mouse,Electronics,1,22.05,22.05,USD,west,0.12,kg,Amara Okafor,completed,
+T20233,2026-04-14,CU8205,Notebook Pack,Stationery,3,11.61,34.83,USD,south,2.4,kg,Elena Rossi,cancelled,
+T20234,2026-03-07,CU5058,Monitor 27in,Electronics,2,306.9,613.8,USD,east,10.8,kg,Ben Liu,completed,
+T20235,2026-03-18,CU9731,Standing Desk,Furniture,2,449.0,898.0,USD,north,56.0,kg,Ben Liu,completed,
+T20236,2026-08-21,CU4501,Notebook Pack,Stationery,4,14.19,56.76,USD,north,3.2,kg,Dmitri Volkov,pending,
+T20237,2026-07-18,CU9734,Notebook Pack,Stationery,3,14.19,42.57,USD,north,2.4,kg,Carla Mendes,completed,
+T20238,2026-07-23,CU4531,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,west,4.75,kg,Elena Rossi,completed,
+T20239,2026-06-13,CU9219,Notebook Pack,Stationery,5,12.9,64.5,USD,north,4.0,kg,Amara Okafor,pending,Order 20239
+T20240,2026-02-18,CU5191,Wireless Mouse,Electronics,3,24.5,73.5,USD,north,0.36,kg,Carla Mendes,completed,Order 20240
+T20241,2026-03-31,CU8657,Monitor 27in,Electronics,5,279.0,1395.0,USD,north,27.0,kg,Ben Liu,completed,Order 20241
+T20242,2026-02-21,CU5827,Wireless Mouse,Electronics,3,24.5,73.5,USD,west,0.36,kg,Amara Okafor,cancelled,
+T20243,2026-05-23,CU9658,Desk Lamp,Furniture,5,39.05,195.25,USD,east,5.5,kg,Ben Liu,completed,Order 20243
+T20244,2026-02-28,CU6078,Notebook Pack,Stationery,3,11.61,34.83,USD,west,2.4,kg,Dmitri Volkov,completed,
+T20245,2026-04-11,CU2158,Notebook Pack,Stationery,1,12.9,12.9,USD,west,0.8,kg,Dmitri Volkov,pending,
+T20246,2026-06-25,CU8868,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,north,1.9,kg,Elena Rossi,completed,Order 20246
+T20247,2026-02-09,CU6639,Notebook Pack,Stationery,3,11.61,34.83,USD,north,2.4,kg,Ben Liu,completed,
+T20248,2026-08-19,CU5699,Notebook Pack,Stationery,3,14.19,42.57,USD,north,2.4,kg,Carla Mendes,completed,
+T20249,2026-01-24,CU5607,Wireless Mouse,Electronics,1,26.95,26.95,USD,north,0.12,kg,Carla Mendes,pending,Order 20249
+T20250,2026-05-20,CU6864,Wireless Mouse,Electronics,1,26.95,26.95,USD,west,0.12,kg,Elena Rossi,completed,
+T20251,2026-01-09,CU2840,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,south,1.9,kg,Elena Rossi, refunded,
+T20252,2026-05-11,CU3715,Wireless Mouse,Electronics,4,24.5,98.0,USD,west,0.48,kg,Ben Liu,cancelled,Order 20252
+T20253,2026-01-29,CU3543,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,north,8.0,kg,Elena Rossi,completed,
+T20254,2026-07-29,CU6106,Laptop Pro 14,Electronics,5,1169.1,5845.5,USD,south,8.0,kg,Dmitri Volkov,completed,Order 20254
+T20255,2026-03-16,CU8120,Standing Desk,Furniture,2,449.0,898.0,USD,east,56.0,kg,Ben Liu, refunded,
+T20256,2026-01-31,CU7369,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,west,4.75,kg,Amara Okafor,pending,Order 20256
+T20257,2026-01-31,CU9305,Desk Lamp,Furniture,4,31.95,127.8,USD,south,4.4,kg,Carla Mendes,completed,Order 20257
+T20258,2026-04-16,CU7342,Wireless Mouse,Electronics,5,22.05,110.25,USD,south,0.6,kg,Carla Mendes,completed,
+T20259,2026-04-04,CU2026,Standing Desk,Furniture,1,449.0,449.0,USD,east,28.0,kg,Amara Okafor,pending,
+T20260,2026-07-20,CU6509,Wireless Mouse,Electronics,5,24.5,122.5,USD,north,0.6,kg,Ben Liu,completed,Order 20260
+T20261,2026-02-22,CU4451,Wireless Mouse,Electronics,5,24.5,122.5,USD,east,0.6,kg,Elena Rossi, refunded,
+T20262,2026-03-27,CU2382,Notebook Pack,Stationery,1,14.19,14.19,USD,north,0.8,kg,Amara Okafor,completed,Order 20262
+T20263,2026-05-09,CU6940,Wireless Mouse,Electronics,2,22.05,44.1,USD,west,0.24,kg,Ben Liu,pending,Order 20263
+T20264,2026-05-30,CU9538,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,south,4.75,kg,Amara Okafor,completed,
+T20265,2026-08-15,CU8643,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,south,6.4,kg,Dmitri Volkov,completed,
+T20266,2026-02-14,CU6878,Notebook Pack,Stationery,2,12.9,25.8,USD,east,1.6,kg,Amara Okafor,completed,Order 20266
+T20267,2026-02-10,CU7435,Standing Desk,Furniture,5,493.9,2469.5,USD,west,140.0,kg,Amara Okafor,completed,
+T20268,2026-01-08,CU5573,Notebook Pack,Stationery,3,14.19,42.57,USD,south,2.4,kg,Ben Liu,completed,
+T20269,2026-04-12,CU9758,Desk Lamp,Furniture,5,35.5,177.5,USD,east,5.5,kg,Carla Mendes,completed,Order 20269
+T20270,2026-05-24,CU9831,Notebook Pack,Stationery,1,12.9,12.9,USD,south,0.8,kg,Carla Mendes,completed,
+T20271,2026-07-17,CU7476,Desk Lamp,Furniture,5,31.95,159.75,USD,east,5.5,kg,Dmitri Volkov,completed,Order 20271
+T20272,2026-07-04,CU6678,Wireless Mouse,Electronics,5,24.5,122.5,USD,south,0.6,kg,Carla Mendes,completed,Order 20272
+T20273,2026-03-31,CU6391,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,east,3.8,kg,Elena Rossi,completed,Order 20273
+T20274,2026-05-08,CU2939,Standing Desk,Furniture,3,449.0,1347.0,USD,east,84.0,kg,Ben Liu,completed,Order 20274
+T20275,2026-06-29,CU3021,Wireless Mouse,Electronics,1,26.95,26.95,USD,east,0.12,kg,Ben Liu,completed,Order 20275
+T20276,2026-03-09,CU2778,Monitor 27in,Electronics,1,279.0,279.0,USD,south,5.4,kg,Ben Liu,cancelled,Order 20276
+T20277,2026-06-19,CU8525,Notebook Pack,Stationery,1,12.9,12.9,USD,west,0.8,kg,Ben Liu,completed,
+T20278,2026-03-01,CU3774,Standing Desk,Furniture,2,449.0,898.0,USD,north,56.0,kg,Dmitri Volkov,pending,
+T20279,2026-04-26,CU3162,Notebook Pack,Stationery,3,11.61,34.83,USD,east,2.4,kg,Dmitri Volkov,pending,
+T20280,2026-03-08,CU3166,Standing Desk,Furniture,5,449.0,2245.0,USD,south,140.0,kg,Amara Okafor,completed,
+T20281,2026-02-27,CU9188,Wireless Mouse,Electronics,4,22.05,88.2,USD,north,0.48,kg,Ben Liu,completed,
+T20282,2026-06-18,CU3726,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,south,4.8,kg,Elena Rossi,pending,Order 20282
+T20283,2026-04-30,CU6655,Wireless Mouse,Electronics,2,22.05,44.1,USD,north,0.24,kg,Elena Rossi, refunded,Order 20283
+T20284,2026-07-19,CU9176,Standing Desk,Furniture,5,449.0,2245.0,USD,west,140.0,kg,Ben Liu,completed,
+T20285,2026-04-25,CU5217,Standing Desk,Furniture,3,449.0,1347.0,USD,south,84.0,kg,Carla Mendes,completed,
+T20286,2026-08-26,CU1977,Mechanical Keyboard,Electronics,5,80.1,400.5,USD,north,4.75,kg,Amara Okafor,pending,Order 20286
+T20287,2026-07-29,CU2066,Monitor 27in,Electronics,4,306.9,1227.6,USD,north,21.6,kg,Ben Liu,completed,
+T20288,2026-05-31,CU9448,Monitor 27in,Electronics,4,279.0,1116.0,USD,south,21.6,kg,Elena Rossi,completed,
+T20289,2026-02-16,CU7719,Notebook Pack,Stationery,2,12.9,25.8,USD,east,1.6,kg,Elena Rossi,completed,Order 20289
+T20290,2026-06-11,CU2727,Laptop Pro 14,Electronics,4,1169.1,4676.4,USD,north,6.4,kg,Ben Liu,completed,Order 20290
+T20291,2026-02-03,CU3694,Monitor 27in,Electronics,4,251.1,1004.4,USD,west,21.6,kg,Elena Rossi,completed,
+T20292,2026-05-15,CU3381,Office Chair,Furniture,5,189.99,949.95,USD,south,72.5,kg,Elena Rossi,completed,Order 20292
+T20293,2026-07-05,CU6208,Standing Desk,Furniture,4,449.0,1796.0,USD,east,112.0,kg,Elena Rossi,completed,
+T20294,2026-03-29,CU9945,Notebook Pack,Stationery,3,14.19,42.57,USD,north,2.4,kg,Ben Liu,completed,Order 20294
+T20295,2026-01-22,CU2262,Wireless Mouse,Electronics,4,24.5,98.0,USD,south,0.48,kg,Dmitri Volkov,completed,
+T20296,2026-05-16,CU4690,Wireless Mouse,Electronics,1,24.5,24.5,USD,south,0.12,kg,Dmitri Volkov,completed,Order 20296
+T20297,2026-08-24,CU2483,Monitor 27in,Electronics,1,279.0,279.0,USD,east,5.4,kg,Carla Mendes,cancelled,
+T20298,2026-01-21,CU7790,Desk Lamp,Furniture,4,39.05,156.2,USD,north,4.4,kg,Carla Mendes,completed,
+T20299,2026-04-22,CU3141,Standing Desk,Furniture,3,449.0,1347.0,USD,north,84.0,kg,Dmitri Volkov,cancelled,Order 20299
+T20300,2026-05-25,CU3466,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,south,1.9,kg,Ben Liu,cancelled,
+T20301,2026-02-23,CU4625,Wireless Mouse,Electronics,5,26.95,134.75,USD,east,0.6,kg,Ben Liu,completed,
+T20302,2026-04-15,CU8045,Monitor 27in,Electronics,4,279.0,1116.0,USD,north,21.6,kg,Ben Liu,cancelled,Order 20302
+T20303,2026-02-24,CU5706,Desk Lamp,Furniture,1,35.5,35.5,USD,west,1.1,kg,Elena Rossi,completed,Order 20303
+T20304,2026-05-25,CU2154,Notebook Pack,Stationery,4,12.9,51.6,USD,west,3.2,kg,Amara Okafor,pending,
+T20305,2026-07-30,CU2685,Desk Lamp,Furniture,1,35.5,35.5,USD,west,1.1,kg,Dmitri Volkov,pending,Order 20305
+T20306,2026-04-12,CU2060,Notebook Pack,Stationery,2,14.19,28.38,USD,north,1.6,kg,Ben Liu,completed,
+T20307,2026-04-05,CU8488,Notebook Pack,Stationery,5,11.61,58.05,USD,west,4.0,kg,Elena Rossi,completed,Order 20307
+T20308,2026-03-02,CU5707,Office Chair,Furniture,4,170.99,683.96,USD,north,58.0,kg,Ben Liu, refunded,Order 20308
+T20309,2026-08-09,CU2410,Monitor 27in,Electronics,5,306.9,1534.5,USD,south,27.0,kg,Ben Liu,completed,
+T20310,2026-02-23,CU1844,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,south,8.0,kg,Dmitri Volkov,completed,Order 20310
+T20311,2026-04-02,CU6489,Desk Lamp,Furniture,4,39.05,156.2,USD,south,4.4,kg,Elena Rossi,completed,Order 20311
+T20312,2026-02-26,CU6456,Wireless Mouse,Electronics,2,24.5,49.0,USD,east,0.24,kg,Elena Rossi,completed,
+T20313,2026-06-20,CU3881,Monitor 27in,Electronics,5,279.0,1395.0,USD,east,27.0,kg,Carla Mendes,completed,
+T20314,2026-06-30,CU1278,Monitor 27in,Electronics,5,306.9,1534.5,USD,south,27.0,kg,Carla Mendes,completed,Order 20314
+T20315,2026-03-03,CU5722,Desk Lamp,Furniture,3,39.05,117.15,USD,north,3.3,kg,Dmitri Volkov,cancelled,
+T20316,2026-04-09,CU8012,Notebook Pack,Stationery,3,11.61,34.83,USD,north,2.4,kg,Dmitri Volkov,completed,Order 20316
+T20317,2026-06-20,CU1971,Wireless Mouse,Electronics,3,22.05,66.15,USD,south,0.36,kg,Dmitri Volkov,completed,
+T20318,2026-01-15,CU6763,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,north,4.8,kg,Amara Okafor,pending,
+T20319,2026-05-19,CU2156,Desk Lamp,Furniture,5,35.5,177.5,USD,south,5.5,kg,Elena Rossi,cancelled,Order 20319
+T20320,2026-07-18,CU2522,Monitor 27in,Electronics,2,279.0,558.0,USD,north,10.8,kg,Amara Okafor,completed,
+T20321,2026-08-26,CU1789,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,north,1.6,kg,Amara Okafor,pending,
+T20322,2026-01-09,CU6677,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,west,6.4,kg,Ben Liu,completed,Order 20322
+T20323,2026-04-18,CU7340,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,north,2.85,kg,Carla Mendes,completed,Order 20323
+T20324,2026-04-12,CU2381,Monitor 27in,Electronics,2,251.1,502.2,USD,north,10.8,kg,Dmitri Volkov,completed,Order 20324
+T20325,2026-07-25,CU8932,Monitor 27in,Electronics,4,279.0,1116.0,USD,west,21.6,kg,Dmitri Volkov,completed,
+T20326,2026-06-06,CU9187,Standing Desk,Furniture,4,449.0,1796.0,USD,south,112.0,kg,Elena Rossi,completed,
+T20327,2026-05-30,CU5006,Notebook Pack,Stationery,2,11.61,23.22,USD,north,1.6,kg,Dmitri Volkov,completed,Order 20327
+T20328,2026-05-15,CU7142,Notebook Pack,Stationery,4,11.61,46.44,USD,north,3.2,kg,Dmitri Volkov,completed,
+T20329,2026-02-23,CU3975,Standing Desk,Furniture,5,449.0,2245.0,USD,west,140.0,kg,Dmitri Volkov,completed,Order 20329
+T20330,2026-01-09,CU7843,Standing Desk,Furniture,3,493.9,1481.7,USD,south,84.0,kg,Carla Mendes,completed,Order 20330
+T20331,2026-04-29,CU9629,Standing Desk,Furniture,5,449.0,2245.0,USD,east,140.0,kg,Dmitri Volkov,pending,
+T20332,2026-06-10,CU5333,Standing Desk,Furniture,3,449.0,1347.0,USD,west,84.0,kg,Ben Liu,completed,Order 20332
+T20333,2026-04-19,CU6300,Standing Desk,Furniture,3,449.0,1347.0,USD,south,84.0,kg,Ben Liu,completed,
+T20334,2026-03-29,CU7922,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,east,2.85,kg,Dmitri Volkov,completed,
+T20335,2026-08-14,CU9700,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,south,1.6,kg,Dmitri Volkov,completed,Order 20335
+T20336,2026-03-11,CU7836,Office Chair,Furniture,3,189.99,569.97,USD,north,43.5,kg,Ben Liu,completed,Order 20336
+T20337,2026-07-23,CU4239,Desk Lamp,Furniture,3,39.05,117.15,USD,west,3.3,kg,Ben Liu,completed,
+T20338,2026-06-03,CU6241,Mechanical Keyboard,Electronics,2,80.1,160.2,USD,west,1.9,kg,Amara Okafor,completed,Order 20338
+T20339,2026-07-26,CU4617,Desk Lamp,Furniture,4,39.05,156.2,USD,south,4.4,kg,Ben Liu,completed,Order 20339
+T20340,2026-08-14,CU4957,Wireless Mouse,Electronics,2,24.5,49.0,USD,west,0.24,kg,Carla Mendes,cancelled,Order 20340
+T20341,2026-03-06,CU1339,Desk Lamp,Furniture,5,35.5,177.5,USD,east,5.5,kg,Carla Mendes,completed,
+T20342,2026-04-10,CU4674,Notebook Pack,Stationery,4,11.61,46.44,USD,east,3.2,kg,Elena Rossi,completed,
+T20343,2026-02-15,CU5791,Office Chair,Furniture,3,208.99,626.97,USD,west,43.5,kg,Carla Mendes,completed,Order 20343
+T20344,2026-02-12,CU1190,Desk Lamp,Furniture,3,39.05,117.15,USD,south,3.3,kg,Amara Okafor,completed,
+T20345,2026-01-16,CU1090,Wireless Mouse,Electronics,4,24.5,98.0,USD,west,0.48,kg,Carla Mendes,completed,Order 20345
+T20346,2026-05-05,CU6458,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,south,1.6,kg,Dmitri Volkov,completed,Order 20346
+T20347,2026-08-03,CU2135,Standing Desk,Furniture,4,449.0,1796.0,USD,east,112.0,kg,Amara Okafor,cancelled,
+T20348,2026-08-04,CU2824,Mechanical Keyboard,Electronics,1,97.9,97.9,USD,east,0.95,kg,Amara Okafor,completed,Order 20348
+T20349,2026-04-29,CU6035,Mechanical Keyboard,Electronics,5,89.0,445.0,USD,west,4.75,kg,Carla Mendes,completed,
+T20350,2026-01-26,CU4169,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,east,0.95,kg,Ben Liu,completed,Order 20350
+T20351,2026-05-27,CU6683,Laptop Pro 14,Electronics,2,1169.1,2338.2,USD,east,3.2,kg,Elena Rossi,pending,
+T20352,2026-05-30,CU6430,Monitor 27in,Electronics,3,251.1,753.3,USD,north,16.2,kg,Amara Okafor,completed,
+T20353,2026-04-10,CU1748,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,north,1.6,kg,Elena Rossi,cancelled,
+T20354,2026-05-08,CU1160,Notebook Pack,Stationery,5,12.9,64.5,USD,west,4.0,kg,Carla Mendes,completed,Order 20354
+T20355,2026-08-21,CU2765,Desk Lamp,Furniture,4,39.05,156.2,USD,north,4.4,kg,Elena Rossi,completed,
+T20356,2026-01-15,CU6523,Laptop Pro 14,Electronics,5,1428.9,7144.5,USD,east,8.0,kg,Carla Mendes,completed,
+T20357,2026-06-27,CU7378,Standing Desk,Furniture,4,449.0,1796.0,USD,east,112.0,kg,Dmitri Volkov,pending,
+T20358,2026-05-11,CU3809,Mechanical Keyboard,Electronics,3,97.9,293.7,USD,west,2.85,kg,Amara Okafor,completed,
+T20359,2026-02-22,CU7553,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,east,1.9,kg,Elena Rossi,pending,
+T20360,2026-06-07,CU4403,Desk Lamp,Furniture,5,35.5,177.5,USD,west,5.5,kg,Dmitri Volkov,completed,Order 20360
+T20361,2026-03-03,CU1855,Wireless Mouse,Electronics,1,22.05,22.05,USD,east,0.12,kg,Elena Rossi,completed,
+T20362,2026-07-25,CU4057,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,north,3.8,kg,Carla Mendes,pending,
+T20363,2026-03-22,CU1229,Standing Desk,Furniture,3,493.9,1481.7,USD,east,84.0,kg,Carla Mendes,pending,
+T20364,2026-03-02,CU6856,Monitor 27in,Electronics,5,279.0,1395.0,USD,north,27.0,kg,Ben Liu,completed,
+T20365,2026-02-06,CU2683,Desk Lamp,Furniture,2,31.95,63.9,USD,north,2.2,kg,Amara Okafor,completed,
+T20366,2026-06-15,CU4728,Wireless Mouse,Electronics,3,24.5,73.5,USD,east,0.36,kg,Ben Liu,completed,Order 20366
+T20367,2026-03-31,CU3957,Office Chair,Furniture,2,170.99,341.98,USD,west,29.0,kg,Amara Okafor,completed,
+T20368,2026-03-19,CU4546,Office Chair,Furniture,3,170.99,512.97,USD,west,43.5,kg,Amara Okafor,completed,
+T20369,2026-01-06,CU6691,Standing Desk,Furniture,1,449.0,449.0,USD,west,28.0,kg,Ben Liu,completed,
+T20370,2026-07-20,CU9480,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,north,6.4,kg,Elena Rossi,pending,
+T20371,2026-07-09,CU5514,Notebook Pack,Stationery,4,11.61,46.44,USD,south,3.2,kg,Elena Rossi, refunded,
+T20372,2026-08-19,CU5922,Office Chair,Furniture,3,189.99,569.97,USD,north,43.5,kg,Dmitri Volkov, refunded,
+T20373,2026-04-19,CU1926,Office Chair,Furniture,1,208.99,208.99,USD,east,14.5,kg,Ben Liu,completed,Order 20373
+T20374,2026-01-05,CU2178,Office Chair,Furniture,3,189.99,569.97,USD,north,43.5,kg,Dmitri Volkov,completed,
+T20375,2026-01-22,CU5929,Desk Lamp,Furniture,1,35.5,35.5,USD,north,1.1,kg,Elena Rossi,completed,Order 20375
+T20376,2026-07-31,CU5540,Desk Lamp,Furniture,2,31.95,63.9,USD,west,2.2,kg,Amara Okafor,completed,Order 20376
+T20377,2026-04-04,CU3962,Standing Desk,Furniture,5,449.0,2245.0,USD,west,140.0,kg,Elena Rossi,completed,
+T20378,2026-04-07,CU4526,Wireless Mouse,Electronics,1,24.5,24.5,USD,north,0.12,kg,Dmitri Volkov,completed,Order 20378
+T20379,2026-03-05,CU5558,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,south,1.9,kg,Ben Liu,pending,
+T20380,2026-01-25,CU8672,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,east,1.9,kg,Ben Liu,cancelled,
+T20381,2026-01-10,CU6080,Wireless Mouse,Electronics,4,24.5,98.0,USD,east,0.48,kg,Amara Okafor,completed,Order 20381
+T20382,2026-03-13,CU8261,Office Chair,Furniture,1,208.99,208.99,USD,west,14.5,kg,Ben Liu,pending,Order 20382
+T20383,2026-08-27,CU5397,Notebook Pack,Stationery,4,12.9,51.6,USD,east,3.2,kg,Amara Okafor,completed,
+T20384,2026-04-18,CU6517,Monitor 27in,Electronics,1,279.0,279.0,USD,north,5.4,kg,Amara Okafor,completed,
+T20385,2026-01-26,CU7834,Desk Lamp,Furniture,5,35.5,177.5,USD,south,5.5,kg,Ben Liu,completed,
+T20386,2026-08-07,CU4407,Office Chair,Furniture,1,189.99,189.99,USD,south,14.5,kg,Elena Rossi,completed,
+T20387,2026-01-07,CU3033,Office Chair,Furniture,4,189.99,759.96,USD,south,58.0,kg,Dmitri Volkov, refunded,Order 20387
+T20388,2026-07-11,CU5785,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,south,4.8,kg,Amara Okafor,pending,Order 20388
+T20389,2026-08-03,CU2528,Monitor 27in,Electronics,3,279.0,837.0,USD,north,16.2,kg,Dmitri Volkov,pending,
+T20390,2026-04-29,CU1848,Laptop Pro 14,Electronics,5,1428.9,7144.5,USD,west,8.0,kg,Carla Mendes,completed,Order 20390
+T20391,2026-01-09,CU7018,Monitor 27in,Electronics,1,251.1,251.1,USD,east,5.4,kg,Dmitri Volkov,completed,Order 20391
+T20392,2026-06-30,CU3483,Office Chair,Furniture,1,208.99,208.99,USD,south,14.5,kg,Elena Rossi,completed,
+T20393,2026-04-05,CU8653,Laptop Pro 14,Electronics,5,1299.0,6495.0,USD,north,8.0,kg,Elena Rossi,completed,Order 20393
+T20394,2026-07-01,CU3949,Desk Lamp,Furniture,3,31.95,95.85,USD,east,3.3,kg,Amara Okafor,completed,
+T20395,2026-02-06,CU7900,Standing Desk,Furniture,1,449.0,449.0,USD,east,28.0,kg,Carla Mendes,completed,Order 20395
+T20396,2026-06-10,CU9726,Desk Lamp,Furniture,2,35.5,71.0,USD,west,2.2,kg,Carla Mendes,pending,
+T20397,2026-05-07,CU6024,Desk Lamp,Furniture,5,35.5,177.5,USD,north,5.5,kg,Elena Rossi,completed,
+T20398,2026-08-14,CU2036,Wireless Mouse,Electronics,5,24.5,122.5,USD,east,0.6,kg,Ben Liu,completed,
+T20399,2026-07-15,CU1110,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,east,0.95,kg,Carla Mendes,completed,Order 20399
+T20400,2026-04-06,CU9432,Standing Desk,Furniture,1,449.0,449.0,USD,west,28.0,kg,Ben Liu,completed,
+T20401,2026-06-22,CU5418,Wireless Mouse,Electronics,2,24.5,49.0,USD,south,0.24,kg,Amara Okafor,completed,Order 20401
+T20402,2026-03-17,CU8851,Monitor 27in,Electronics,3,279.0,837.0,USD,south,16.2,kg,Dmitri Volkov,completed,
+T20403,2026-08-12,CU6892,Desk Lamp,Furniture,3,39.05,117.15,USD,south,3.3,kg,Ben Liu,completed,
+T20404,2026-03-15,CU2710,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,west,2.85,kg,Elena Rossi,pending,
+T20405,2026-01-10,CU2048,Office Chair,Furniture,3,170.99,512.97,USD,north,43.5,kg,Ben Liu,completed,
+T20406,2026-08-02,CU7735,Monitor 27in,Electronics,5,279.0,1395.0,USD,west,27.0,kg,Carla Mendes,completed,
+T20407,2026-05-09,CU5206,Wireless Mouse,Electronics,5,24.5,122.5,USD,west,0.6,kg,Amara Okafor,completed,
+T20408,2026-02-15,CU2772,Mechanical Keyboard,Electronics,2,80.1,160.2,USD,south,1.9,kg,Ben Liu,completed,
+T20409,2026-05-09,CU9976,Mechanical Keyboard,Electronics,4,80.1,320.4,USD,north,3.8,kg,Ben Liu,completed,Order 20409
+T20410,2026-01-30,CU9187,Office Chair,Furniture,3,208.99,626.97,USD,west,43.5,kg,Ben Liu,completed,Order 20410
+T20411,2026-08-25,CU8203,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,north,4.8,kg,Amara Okafor,completed,
+T20412,2026-01-08,CU5568,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,east,3.8,kg,Elena Rossi,completed,Order 20412
+T20413,2026-07-01,CU6316,Monitor 27in,Electronics,3,306.9,920.7,USD,east,16.2,kg,Elena Rossi,completed,
+T20414,2026-02-07,CU8742,Mechanical Keyboard,Electronics,2,80.1,160.2,USD,east,1.9,kg,Carla Mendes,completed,
+T20415,2026-06-18,CU3784,Standing Desk,Furniture,4,449.0,1796.0,USD,east,112.0,kg,Amara Okafor,cancelled,Order 20415
+T20416,2026-03-08,CU3630,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,west,1.6,kg,Amara Okafor,completed,
+T20417,2026-03-13,CU7246,Mechanical Keyboard,Electronics,4,89.0,356.0,USD,north,3.8,kg,Dmitri Volkov,completed,
+T20418,2026-08-26,CU9538,Desk Lamp,Furniture,4,35.5,142.0,USD,west,4.4,kg,Ben Liu,completed,
+T20419,2026-03-19,CU8077,Standing Desk,Furniture,1,449.0,449.0,USD,east,28.0,kg,Carla Mendes,completed,Order 20419
+T20420,2026-07-18,CU1708,Notebook Pack,Stationery,5,12.9,64.5,USD,south,4.0,kg,Amara Okafor,completed,
+T20421,2026-02-11,CU1910,Wireless Mouse,Electronics,2,22.05,44.1,USD,west,0.24,kg,Carla Mendes,cancelled,
+T20422,2026-01-07,CU4629,Desk Lamp,Furniture,1,31.95,31.95,USD,north,1.1,kg,Ben Liu, refunded,
+T20423,2026-02-17,CU2198,Office Chair,Furniture,1,189.99,189.99,USD,south,14.5,kg,Carla Mendes,completed,
+T20424,2026-03-15,CU2247,Office Chair,Furniture,5,170.99,854.95,USD,south,72.5,kg,Amara Okafor,cancelled,
+T20425,2026-05-17,CU6880,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,south,2.85,kg,Amara Okafor,completed,Order 20425
+T20426,2026-01-02,CU7512,Desk Lamp,Furniture,2,35.5,71.0,USD,north,2.2,kg,Elena Rossi,pending,
+T20427,2026-01-06,CU8993,Monitor 27in,Electronics,2,279.0,558.0,USD,east,10.8,kg,Elena Rossi,completed,
+T20428,2026-03-10,CU8158,Monitor 27in,Electronics,3,306.9,920.7,USD,south,16.2,kg,Amara Okafor, refunded,
+T20429,2026-07-19,CU9504,Notebook Pack,Stationery,3,12.9,38.7,USD,south,2.4,kg,Carla Mendes,cancelled,Order 20429
+T20430,2026-07-03,CU3369,Desk Lamp,Furniture,4,39.05,156.2,USD,south,4.4,kg,Amara Okafor,completed,
+T20431,2026-03-20,CU7265,Office Chair,Furniture,3,189.99,569.97,USD,west,43.5,kg,Ben Liu,completed,
+T20432,2026-02-20,CU6418,Monitor 27in,Electronics,5,279.0,1395.0,USD,north,27.0,kg,Carla Mendes,pending,
+T20433,2026-02-06,CU6135,Mechanical Keyboard,Electronics,3,89.0,267.0,USD,north,2.85,kg,Amara Okafor,pending,Order 20433
+T20434,2026-03-22,CU7731,Office Chair,Furniture,1,189.99,189.99,USD,north,14.5,kg,Elena Rossi,pending,
+T20435,2026-01-03,CU3754,Notebook Pack,Stationery,3,12.9,38.7,USD,north,2.4,kg,Elena Rossi,completed,
+T20436,2026-04-04,CU5996,Notebook Pack,Stationery,1,11.61,11.61,USD,east,0.8,kg,Ben Liu,pending,Order 20436
+T20437,2026-07-13,CU2831,Monitor 27in,Electronics,2,279.0,558.0,USD,east,10.8,kg,Carla Mendes,completed,
+T20438,2026-05-10,CU7136,Notebook Pack,Stationery,5,14.19,70.95,USD,west,4.0,kg,Carla Mendes,completed,
+T20439,2026-01-26,CU4507,Standing Desk,Furniture,2,449.0,898.0,USD,west,56.0,kg,Carla Mendes,completed,Order 20439
+T20440,2026-01-24,CU2781,Monitor 27in,Electronics,1,251.1,251.1,USD,west,5.4,kg,Elena Rossi,cancelled,Order 20440
+T20441,2026-01-17,CU1500,Laptop Pro 14,Electronics,1,1169.1,1169.1,USD,west,1.6,kg,Dmitri Volkov,pending,Order 20441
+T20442,2026-07-31,CU6275,Desk Lamp,Furniture,4,35.5,142.0,USD,south,4.4,kg,Elena Rossi, refunded,
+T20443,2026-06-09,CU4713,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,east,0.95,kg,Dmitri Volkov, refunded,
+T20444,2026-06-15,CU5854,Laptop Pro 14,Electronics,2,1299.0,2598.0,USD,south,3.2,kg,Elena Rossi,completed,
+T20445,2026-05-20,CU7811,Notebook Pack,Stationery,5,12.9,64.5,USD,south,4.0,kg,Dmitri Volkov,pending,Order 20445
+T20446,2026-07-11,CU6622,Office Chair,Furniture,4,208.99,835.96,USD,east,58.0,kg,Amara Okafor,completed,
+T20447,2026-05-07,CU9786,Notebook Pack,Stationery,5,14.19,70.95,USD,east,4.0,kg,Dmitri Volkov,completed,
+T20448,2026-01-04,CU7605,Wireless Mouse,Electronics,2,26.95,53.9,USD,west,0.24,kg,Ben Liu,completed,
+T20449,2026-04-18,CU8534,Notebook Pack,Stationery,4,14.19,56.76,USD,north,3.2,kg,Dmitri Volkov,completed,
+T20450,2026-07-07,CU2286,Office Chair,Furniture,1,189.99,189.99,USD,north,14.5,kg,Amara Okafor,cancelled,
+T20451,2026-02-26,CU9501,Office Chair,Furniture,5,189.99,949.95,USD,north,72.5,kg,Ben Liu,pending,
+T20452,2026-07-12,CU8223,Monitor 27in,Electronics,4,279.0,1116.0,USD,north,21.6,kg,Elena Rossi, refunded,
+T20453,2026-01-13,CU9696,Notebook Pack,Stationery,1,14.19,14.19,USD,west,0.8,kg,Elena Rossi,completed,
+T20454,2026-06-29,CU8374,Mechanical Keyboard,Electronics,2,80.1,160.2,USD,south,1.9,kg,Amara Okafor,completed,Order 20454
+T20455,2026-07-18,CU7445,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,west,4.8,kg,Amara Okafor,cancelled,Order 20455
+T20456,2026-07-07,CU6780,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,south,4.8,kg,Dmitri Volkov,completed,
+T20457,2026-02-25,CU3853,Standing Desk,Furniture,4,493.9,1975.6,USD,south,112.0,kg,Amara Okafor,completed,
+T20458,2026-03-26,CU2468,Desk Lamp,Furniture,2,35.5,71.0,USD,east,2.2,kg,Elena Rossi,completed,Order 20458
+T20459,2026-02-06,CU9663,Office Chair,Furniture,3,208.99,626.97,USD,north,43.5,kg,Elena Rossi,pending,Order 20459
+T20460,2026-05-28,CU6752,Notebook Pack,Stationery,4,12.9,51.6,USD,east,3.2,kg,Carla Mendes, refunded,
+T20461,2026-07-07,CU2289,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,south,1.6,kg,Amara Okafor,completed,
+T20462,2026-05-05,CU4057,Laptop Pro 14,Electronics,3,1428.9,4286.7,USD,north,4.8,kg,Amara Okafor,completed,Order 20462
+T20463,2026-02-11,CU6539,Notebook Pack,Stationery,3,12.9,38.7,USD,west,2.4,kg,Ben Liu,completed,
+T20464,2026-07-01,CU9549,Laptop Pro 14,Electronics,4,1299.0,5196.0,USD,south,6.4,kg,Carla Mendes,completed,
+T20465,2026-04-22,CU8855,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,west,1.9,kg,Dmitri Volkov,completed,Order 20465
+T20466,2026-06-12,CU6434,Wireless Mouse,Electronics,3,24.5,73.5,USD,south,0.36,kg,Carla Mendes,completed,Order 20466
+T20467,2026-08-27,CU4394,Laptop Pro 14,Electronics,1,1299.0,1299.0,USD,east,1.6,kg,Carla Mendes,pending,Order 20467
+T20468,2026-02-08,CU6578,Office Chair,Furniture,3,189.99,569.97,USD,east,43.5,kg,Elena Rossi,completed,Order 20468
+T20469,2026-01-07,CU3582,Monitor 27in,Electronics,2,306.9,613.8,USD,south,10.8,kg,Amara Okafor,completed,
+T20470,2026-07-28,CU4008,Notebook Pack,Stationery,3,12.9,38.7,USD,north,2.4,kg,Ben Liu,completed,Order 20470
+T20471,2026-08-03,CU8021,Standing Desk,Furniture,4,404.1,1616.4,USD,west,112.0,kg,Amara Okafor,completed,Order 20471
+T20472,2026-03-30,CU4661,Standing Desk,Furniture,1,493.9,493.9,USD,west,28.0,kg,Carla Mendes,completed,Order 20472
+T20473,2026-04-20,CU7349,Desk Lamp,Furniture,3,31.95,95.85,USD,south,3.3,kg,Amara Okafor,completed,Order 20473
+T20474,2026-07-08,CU6993,Monitor 27in,Electronics,2,279.0,558.0,USD,south,10.8,kg,Ben Liu,pending,
+T20475,2026-07-05,CU1776,Desk Lamp,Furniture,2,35.5,71.0,USD,north,2.2,kg,Carla Mendes,completed,Order 20475
+T20476,2026-08-08,CU9118,Notebook Pack,Stationery,5,12.9,64.5,USD,west,4.0,kg,Elena Rossi,completed,Order 20476
+T20477,2026-05-18,CU2343,Desk Lamp,Furniture,5,35.5,177.5,USD,east,5.5,kg,Carla Mendes,completed,
+T20478,2026-08-27,CU1741,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,south,1.9,kg,Elena Rossi,completed,
+T20479,2026-04-13,CU3173,Desk Lamp,Furniture,1,35.5,35.5,USD,east,1.1,kg,Ben Liu,pending,
+T20480,2026-07-18,CU7839,Mechanical Keyboard,Electronics,4,97.9,391.6,USD,east,3.8,kg,Ben Liu,completed,Order 20480
+T20481,2026-06-25,CU9300,Monitor 27in,Electronics,2,251.1,502.2,USD,north,10.8,kg,Dmitri Volkov,pending,Order 20481
+T20482,2026-02-26,CU8324,Wireless Mouse,Electronics,3,24.5,73.5,USD,east,0.36,kg,Amara Okafor,cancelled,
+T20483,2026-05-16,CU5835,Standing Desk,Furniture,3,449.0,1347.0,USD,west,84.0,kg,Ben Liu,pending,
+T20484,2026-05-16,CU3213,Desk Lamp,Furniture,2,35.5,71.0,USD,south,2.2,kg,Carla Mendes,cancelled,
+T20485,2026-05-18,CU4503,Monitor 27in,Electronics,4,279.0,1116.0,USD,south,21.6,kg,Dmitri Volkov,completed,
+T20486,2026-03-16,CU6237,Standing Desk,Furniture,3,449.0,1347.0,USD,east,84.0,kg,Amara Okafor,pending,Order 20486
+T20487,2026-03-23,CU6887,Standing Desk,Furniture,1,493.9,493.9,USD,east,28.0,kg,Elena Rossi,completed,
+T20488,2026-07-08,CU7651,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,north,1.9,kg,Dmitri Volkov,completed,
+T20489,2026-08-16,CU4497,Mechanical Keyboard,Electronics,1,89.0,89.0,USD,north,0.95,kg,Elena Rossi, refunded,Order 20489
+T20490,2026-07-12,CU8376,Wireless Mouse,Electronics,1,24.5,24.5,USD,north,0.12,kg,Elena Rossi,cancelled,Order 20490
+T20491,2026-05-08,CU1222,Standing Desk,Furniture,4,449.0,1796.0,USD,east,112.0,kg,Elena Rossi,pending,
+T20492,2026-03-16,CU3069,Notebook Pack,Stationery,5,12.9,64.5,USD,north,4.0,kg,Carla Mendes, refunded,
+T20493,2026-03-01,CU8444,Mechanical Keyboard,Electronics,2,89.0,178.0,USD,north,1.9,kg,Elena Rossi,completed,
+T20494,2026-04-07,CU1109,Notebook Pack,Stationery,5,12.9,64.5,USD,east,4.0,kg,Carla Mendes,pending,
+T20495,2026-04-09,CU4855,Notebook Pack,Stationery,4,12.9,51.6,USD,south,3.2,kg,Dmitri Volkov,pending,
+T20496,2026-05-05,CU9035,Wireless Mouse,Electronics,2,26.95,53.9,USD,north,0.24,kg,Dmitri Volkov,completed,
+T20497,2026-03-07,CU6339,Office Chair,Furniture,3,189.99,569.97,USD,west,43.5,kg,Amara Okafor,completed,Order 20497
+T20498,2026-08-26,CU1837,Laptop Pro 14,Electronics,3,1299.0,3897.0,USD,west,4.8,kg,Carla Mendes,pending,
+T20499,2026-07-07,CU2592,Wireless Mouse,Electronics,3,24.5,73.5,USD,west,0.36,kg,Amara Okafor,completed,

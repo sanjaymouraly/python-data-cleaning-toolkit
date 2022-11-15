@@ -1,0 +1,70 @@
+# Cleaning profile: financial transaction datasets
+# Strict types, ledger-safe validation, no destructive defaults.
+version: "1.0"
+name: financial-transactions
+description: >
+  For transaction ledgers and bank exports: parse European-style amounts,
+  validate balances, normalize ISO dates, protect identifiers with leading
+  zeros, and flag statistical outliers for review.
+
+rules:
+  - id: normalize-markers
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "na", "null", "-", "none"]
+
+  - id: transaction-date
+    type: date_normalize
+    columns: [transaction_date, booking_date]
+    dayfirst: false           # US-style exports; set true for EU day-first files
+    output_format: "%Y-%m-%d"
+
+  - id: amount-to-decimal
+    type: type_conversion
+    column: amount
+    target: decimal
+    thousands_sep: ","
+    decimal_sep: "."
+    on_error: flag
+
+  - id: account-id-protection
+    type: type_conversion
+    column: account_id
+    target: text
+    on_error: flag
+
+  - id: amount-range
+    type: numeric_validate
+    columns: [amount]
+    min: -1000000
+    max: 1000000
+    outlier_method: iqr
+    outlier_action: flag      # outliers are flagged, never removed
+
+  - id: status-allowed
+    type: allowed_values
+    column: status
+    values: [posted, pending, failed, reversed]
+
+  - id: unique-transaction-ref
+    type: unique_key
+    columns: [transaction_ref]
+    on_violation: flag
+
+  - id: signed-amount-consistency
+    type: cross_column
+    left: amount
+    operator: "!="
+    right_value: 0
+    on_violation: flag
+
+export:
+  fmt: csv
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  max_change_records: 50000
+  key_columns: [transaction_ref, transaction_date]
+  redact_columns: [account_id, iban]
+  write_excel_workbook: false

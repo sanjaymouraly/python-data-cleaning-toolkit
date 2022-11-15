@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Streamlit / app runtime artifacts
+dtk_workspace/
+.dtk_workspace/
+.hypothesis/
+cleaned/
+*.streamlit.secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local env & secrets
+.env
+*.local.yaml
+
+# Generated screenshots (regenerate via scripts/capture_screenshots.py)
+# docs/images/*.png are committed intentionally as documentation

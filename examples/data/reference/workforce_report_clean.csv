@@ -1,0 +1,181 @@
+employee_id,employee_name,department,seniority,manager_id,hire_date,annual_salary,weekly_hours
+EMP-1000,Barbara Liskov,Human Resources,mid,EMP-1083,2017-07-10,133000.0,20
+EMP-1001,Grace Hopper,Sales,junior,EMP-1064,2024-12-25,139000.0,40
+EMP-1002,Katherine Johnson,Human Resources,senior,EMP-1026,2021-07-07,41000.0,40
+EMP-1003,Alan Turing,Human Resources,junior,EMP-1012,2018-02-05,62000.0,20
+EMP-1004,Margaret Hamilton,Finance,junior,EMP-1089,2023-03-14,106000.0,40
+EMP-1005,Katherine Johnson,Finance,mid,EMP-1037,2017-10-24,54000.0,35
+EMP-1006,Grace Hopper,IT,mid,EMP-1024,2017-04-22,105000.0,40
+EMP-1007,Barbara Liskov,Engineering,senior,EMP-1047,2020-03-01,95000.0,35
+EMP-1008,Margaret Hamilton,Sales,mid,EMP-1070,2018-03-12,95000.0,35
+EMP-1009,Grace Hopper,Finance,junior,EMP-1060,2018-03-07,121000.0,40
+EMP-1010,Donald Knuth,Engineering,junior,EMP-1086,2017-10-04,66000.0,40
+EMP-1011,Donald Knuth,IT,mid,EMP-1034,2021-12-13,156000.0,40
+EMP-1012,Barbara Liskov,Engineering,senior,EMP-1043,2015-08-14,78000.0,35
+EMP-1013,Katherine Johnson,Human Resources,mid,EMP-1041,2021-01-28,100000.0,40
+EMP-1014,Alan Turing,Human Resources,mid,EMP-1085,2022-03-02,69000.0,40
+EMP-1015,Barbara Liskov,Sales,junior,EMP-1098,2021-12-14,122000.0,35
+EMP-1016,Margaret Hamilton,IT,senior,EMP-1037,2019-02-27,102000.0,40
+EMP-1017,Margaret Hamilton,Finance,senior,EMP-1048,2018-10-29,106000.0,40
+EMP-1018,Margaret Hamilton,Sales,senior,EMP-1008,2023-12-16,87000.0,35
+EMP-1019,Ada Lovelace,Human Resources,junior,EMP-1064,2023-11-11,76000.0,40
+EMP-1020,Alan Turing,Finance,junior,EMP-1085,2021-11-08,99000.0,35
+EMP-1021,Katherine Johnson,Engineering,junior,EMP-1079,2024-02-12,126000.0,20
+EMP-1022,Margaret Hamilton,Sales,mid,EMP-1040,2019-08-28,53000.0,20
+EMP-1023,Grace Hopper,IT,mid,EMP-1015,2019-09-22,146000.0,35
+EMP-1024,Alan Turing,Sales,junior,EMP-1051,2020-01-10,40000.0,20
+EMP-1025,Donald Knuth,Engineering,senior,EMP-1032,2016-02-16,131000.0,35
+EMP-1026,Alan Turing,IT,mid,EMP-1083,2024-09-06,89000.0,35
+EMP-1027,Grace Hopper,Human Resources,senior,EMP-1055,2017-08-22,47000.0,40
+EMP-1028,Margaret Hamilton,IT,junior,EMP-1001,2019-05-31,147000.0,40
+EMP-1029,Ada Lovelace,IT,junior,EMP-1011,2021-02-02,72000.0,40
+EMP-1030,Donald Knuth,Human Resources,junior,EMP-1070,2017-07-13,118000.0,40
+EMP-1031,Margaret Hamilton,Engineering,junior,EMP-1009,2015-04-01,42000.0,35
+EMP-1032,Grace Hopper,Engineering,mid,EMP-1034,2024-03-15,85000.0,35
+EMP-1033,Alan Turing,Sales,junior,EMP-1020,2015-12-06,157000.0,35
+EMP-1034,Edsger Dijkstra,Human Resources,mid,EMP-1046,2023-09-25,139000.0,35
+EMP-1035,Alan Turing,Engineering,junior,EMP-1003,2023-10-27,91000.0,40
+EMP-1036,Alan Turing,IT,senior,EMP-1052,2016-08-14,113000.0,35
+EMP-1037,Ada Lovelace,Engineering,mid,EMP-1059,2023-06-16,74000.0,40
+EMP-1038,Katherine Johnson,IT,mid,EMP-1021,2017-11-29,134000.0,35
+EMP-1039,Katherine Johnson,Engineering,senior,EMP-1087,2021-02-16,87000.0,40
+EMP-1040,Margaret Hamilton,IT,senior,EMP-1042,2024-11-01,81000.0,35
+EMP-1041,Edsger Dijkstra,Human Resources,senior,EMP-1053,2020-05-15,141000.0,40
+EMP-1042,Barbara Liskov,IT,senior,EMP-1025,2022-03-27,93000.0,20
+EMP-1043,Grace Hopper,Human Resources,senior,EMP-1057,2021-01-14,159000.0,40
+EMP-1044,Grace Hopper,Human Resources,junior,EMP-1009,2018-05-05,78000.0,20
+EMP-1045,Barbara Liskov,Sales,senior,EMP-1086,2025-03-04,50000.0,40
+EMP-1046,Donald Knuth,IT,junior,EMP-1034,2025-04-25,101000.0,40
+EMP-1047,Katherine Johnson,Sales,senior,EMP-1068,2022-10-18,41000.0,35
+EMP-1048,Margaret Hamilton,Human Resources,junior,EMP-1052,2021-08-02,155000.0,40
+EMP-1049,Donald Knuth,Human Resources,mid,EMP-1092,2024-05-30,127000.0,40
+EMP-1050,Ada Lovelace,IT,mid,EMP-1026,2020-09-09,54000.0,40
+EMP-1051,Alan Turing,Finance,mid,EMP-1009,2024-10-27,41000.0,40
+EMP-1052,Ada Lovelace,Engineering,mid,EMP-1094,2022-09-13,103000.0,40
+EMP-1053,Katherine Johnson,Human Resources,junior,EMP-1030,2024-11-15,103000.0,40
+EMP-1054,Katherine Johnson,IT,senior,EMP-1019,2023-09-20,47000.0,35
+EMP-1055,Donald Knuth,IT,senior,EMP-1028,2017-03-03,46000.0,40
+EMP-1056,Grace Hopper,Finance,mid,EMP-1005,2021-09-26,61000.0,20
+EMP-1057,Edsger Dijkstra,Human Resources,mid,EMP-1080,2015-10-18,87000.0,40
+EMP-1058,Donald Knuth,Engineering,senior,EMP-1000,2024-01-06,47000.0,40
+EMP-1059,Barbara Liskov,IT,senior,EMP-1095,2016-10-10,149000.0,40
+EMP-1060,Katherine Johnson,Sales,senior,EMP-1012,2015-12-27,112000.0,35
+EMP-1061,Alan Turing,Sales,mid,EMP-1013,2020-03-26,141000.0,40
+EMP-1062,Grace Hopper,Finance,junior,EMP-1057,2022-08-03,110000.0,40
+EMP-1063,Ada Lovelace,IT,mid,EMP-1086,2016-09-29,120000.0,35
+EMP-1064,Donald Knuth,Finance,mid,EMP-1017,2016-04-20,89000.0,20
+EMP-1065,Ada Lovelace,Human Resources,mid,EMP-1033,2021-02-27,61000.0,35
+EMP-1066,Katherine Johnson,IT,mid,EMP-1020,2020-07-10,50000.0,40
+EMP-1067,Donald Knuth,Human Resources,senior,EMP-1015,2023-08-09,134000.0,40
+EMP-1068,Margaret Hamilton,IT,junior,EMP-1011,2015-06-23,58000.0,20
+EMP-1069,Margaret Hamilton,Engineering,mid,EMP-1039,2019-08-04,106000.0,20
+EMP-1070,Edsger Dijkstra,Finance,mid,EMP-1063,2016-07-09,63000.0,35
+EMP-1071,Donald Knuth,Finance,mid,EMP-1056,2016-01-04,60000.0,20
+EMP-1072,Barbara Liskov,Sales,junior,EMP-1076,2021-12-02,68000.0,40
+EMP-1073,Grace Hopper,Sales,senior,EMP-1046,2024-06-26,95000.0,40
+EMP-1074,Edsger Dijkstra,Human Resources,senior,EMP-1061,2018-08-20,44000.0,35
+EMP-1075,Grace Hopper,IT,mid,EMP-1005,2020-07-28,124000.0,40
+EMP-1076,Margaret Hamilton,Finance,junior,EMP-1059,2016-08-13,99000.0,20
+EMP-1077,Ada Lovelace,Finance,mid,EMP-1020,2018-02-07,155000.0,40
+EMP-1078,Donald Knuth,Finance,junior,EMP-1036,2020-06-15,115000.0,40
+EMP-1079,Grace Hopper,Finance,junior,EMP-1087,2021-11-03,89000.0,40
+EMP-1080,Ada Lovelace,Engineering,mid,EMP-1071,2018-10-06,66000.0,20
+EMP-1081,Barbara Liskov,Sales,junior,EMP-1092,2023-07-17,108000.0,35
+EMP-1082,Ada Lovelace,Finance,senior,EMP-1087,2020-09-30,60000.0,40
+EMP-1083,Katherine Johnson,Sales,mid,EMP-1089,2022-05-04,42000.0,40
+EMP-1084,Grace Hopper,IT,mid,EMP-1005,2017-11-23,81000.0,40
+EMP-1085,Ada Lovelace,Sales,mid,EMP-1087,2015-04-13,71000.0,40
+EMP-1086,Barbara Liskov,IT,mid,EMP-1068,2016-05-17,78000.0,40
+EMP-1087,Margaret Hamilton,Finance,junior,EMP-1055,2018-01-09,125000.0,20
+EMP-1088,Alan Turing,Finance,mid,EMP-1059,2022-02-26,41000.0,40
+EMP-1089,Margaret Hamilton,IT,junior,EMP-1063,2017-12-20,91000.0,40
+EMP-1090,Katherine Johnson,Finance,mid,EMP-1099,2021-11-20,125000.0,40
+EMP-1091,Katherine Johnson,Engineering,mid,EMP-1066,2020-03-02,137000.0,40
+EMP-1092,Donald Knuth,Engineering,mid,EMP-1027,2016-07-14,104000.0,40
+EMP-1093,Edsger Dijkstra,Engineering,mid,EMP-1077,2017-06-10,72000.0,20
+EMP-1094,Edsger Dijkstra,Sales,mid,EMP-1018,2020-06-22,111000.0,40
+EMP-1095,Alan Turing,Engineering,junior,EMP-1060,2019-03-06,74000.0,40
+EMP-1096,Edsger Dijkstra,Human Resources,mid,EMP-1019,2020-02-20,96000.0,40
+EMP-1097,Margaret Hamilton,Finance,senior,EMP-1076,2021-09-09,139000.0,20
+EMP-1098,Grace Hopper,Human Resources,senior,EMP-1075,2023-03-13,81000.0,40
+EMP-1099,Ada Lovelace,Human Resources,junior,EMP-1044,2016-09-10,98000.0,20
+EMP-1100,Edsger Dijkstra,Engineering,junior,EMP-1061,2021-01-08,94000.0,35
+EMP-1101,Ada Lovelace,Sales,junior,EMP-1078,2016-04-29,73000.0,35
+EMP-1102,Barbara Liskov,Finance,mid,EMP-1021,2024-03-25,61000.0,40
+EMP-1103,Edsger Dijkstra,Human Resources,mid,EMP-1042,2019-06-29,153000.0,40
+EMP-1104,Edsger Dijkstra,Finance,mid,EMP-1076,2015-03-21,132000.0,40
+EMP-1105,Margaret Hamilton,Sales,junior,EMP-1070,2016-11-26,123000.0,40
+EMP-1106,Ada Lovelace,Sales,mid,EMP-1024,2017-01-17,72000.0,20
+EMP-1107,Donald Knuth,Human Resources,mid,EMP-1051,2021-07-30,80000.0,20
+EMP-1108,Margaret Hamilton,Engineering,senior,EMP-1083,2016-11-13,140000.0,40
+EMP-1109,Grace Hopper,Human Resources,junior,EMP-1069,2019-01-20,129000.0,40
+EMP-1110,Barbara Liskov,Finance,junior,EMP-1091,2021-10-21,79000.0,20
+EMP-1111,Ada Lovelace,Sales,senior,EMP-1070,2016-11-29,106000.0,20
+EMP-1112,Grace Hopper,Sales,mid,EMP-1000,2021-08-26,135000.0,40
+EMP-1113,Donald Knuth,Human Resources,junior,EMP-1087,2021-11-15,141000.0,40
+EMP-1114,Grace Hopper,Finance,senior,EMP-1016,2015-01-21,58000.0,20
+EMP-1115,Donald Knuth,Human Resources,mid,EMP-1076,2017-01-11,101000.0,40
+EMP-1116,Alan Turing,Sales,junior,EMP-1086,2022-10-06,73000.0,35
+EMP-1117,Edsger Dijkstra,Human Resources,junior,EMP-1057,2017-10-11,73000.0,40
+EMP-1118,Grace Hopper,Human Resources,senior,EMP-1027,2016-09-02,106000.0,40
+EMP-1119,Edsger Dijkstra,IT,mid,EMP-1054,2023-05-11,49000.0,40
+EMP-1120,Margaret Hamilton,Engineering,mid,EMP-1004,2016-06-23,131000.0,40
+EMP-1121,Edsger Dijkstra,Human Resources,mid,EMP-1018,2015-12-29,133000.0,35
+EMP-1122,Barbara Liskov,Sales,junior,EMP-1081,2015-09-05,53000.0,40
+EMP-1123,Grace Hopper,IT,senior,EMP-1053,2023-06-27,159000.0,40
+EMP-1124,Edsger Dijkstra,Finance,mid,EMP-1019,2021-07-01,85000.0,40
+EMP-1125,Donald Knuth,Human Resources,junior,EMP-1060,2025-02-16,151000.0,40
+EMP-1126,Katherine Johnson,Engineering,mid,EMP-1070,2025-04-06,103000.0,40
+EMP-1127,Ada Lovelace,IT,senior,EMP-1085,2018-05-24,43000.0,40
+EMP-1128,Margaret Hamilton,IT,senior,EMP-1033,2024-06-21,72000.0,20
+EMP-1129,Katherine Johnson,IT,mid,EMP-1078,2023-06-05,73000.0,40
+EMP-1130,Ada Lovelace,Sales,mid,EMP-1005,2019-09-07,147000.0,40
+EMP-1131,Edsger Dijkstra,Sales,junior,EMP-1088,2018-09-16,126000.0,40
+EMP-1132,Donald Knuth,Engineering,mid,EMP-1091,2020-08-11,106000.0,40
+EMP-1133,Ada Lovelace,Sales,senior,EMP-1075,2018-02-06,85000.0,35
+EMP-1134,Alan Turing,Human Resources,mid,EMP-1096,2022-02-27,84000.0,40
+EMP-1135,Margaret Hamilton,Human Resources,senior,EMP-1000,2015-08-16,72000.0,40
+EMP-1136,Donald Knuth,Engineering,junior,EMP-1029,2024-09-19,118000.0,40
+EMP-1137,Katherine Johnson,Human Resources,mid,EMP-1075,2015-02-27,57000.0,40
+EMP-1138,Ada Lovelace,Sales,junior,EMP-1062,2019-03-22,88000.0,40
+EMP-1139,Katherine Johnson,Engineering,senior,EMP-1090,2020-06-09,112000.0,35
+EMP-1140,Grace Hopper,Finance,senior,EMP-1078,2019-09-09,108000.0,40
+EMP-1141,Alan Turing,Sales,senior,EMP-1026,2023-11-01,80000.0,35
+EMP-1142,Alan Turing,IT,mid,EMP-1062,2017-01-09,145000.0,40
+EMP-1143,Katherine Johnson,Engineering,junior,EMP-1041,2018-12-24,62000.0,40
+EMP-1144,Donald Knuth,Engineering,mid,EMP-1083,2021-06-19,92000.0,40
+EMP-1145,Katherine Johnson,Finance,junior,EMP-1087,2024-12-30,139000.0,40
+EMP-1146,Ada Lovelace,IT,senior,EMP-1017,2023-06-14,78000.0,40
+EMP-1147,Katherine Johnson,Engineering,junior,EMP-1059,2021-04-04,83000.0,40
+EMP-1148,Katherine Johnson,IT,mid,EMP-1087,2015-10-24,85000.0,35
+EMP-1149,Barbara Liskov,Human Resources,junior,EMP-1029,2025-05-20,53000.0,35
+EMP-1150,Ada Lovelace,Finance,mid,EMP-1036,2018-06-30,58000.0,40
+EMP-1151,Edsger Dijkstra,Human Resources,senior,EMP-1044,2018-12-29,155000.0,40
+EMP-1152,Margaret Hamilton,Human Resources,junior,EMP-1041,2022-06-01,115000.0,40
+EMP-1153,Grace Hopper,Engineering,mid,EMP-1011,2021-04-04,103000.0,35
+EMP-1154,Ada Lovelace,IT,junior,EMP-1016,2021-01-30,70000.0,40
+EMP-1155,Edsger Dijkstra,Human Resources,senior,EMP-1037,2024-05-04,132000.0,40
+EMP-1156,Edsger Dijkstra,Sales,junior,EMP-1099,2019-05-24,132000.0,40
+EMP-1157,Barbara Liskov,Sales,senior,EMP-1012,2024-08-05,68000.0,20
+EMP-1158,Alan Turing,Human Resources,junior,EMP-1092,2017-05-10,40000.0,40
+EMP-1159,Ada Lovelace,Engineering,mid,EMP-1055,2015-05-17,89000.0,20
+EMP-1160,Katherine Johnson,Sales,mid,EMP-1073,2017-04-06,130000.0,20
+EMP-1161,Ada Lovelace,IT,mid,EMP-1045,2018-11-13,54000.0,40
+EMP-1162,Margaret Hamilton,Engineering,senior,EMP-1042,2019-05-07,60000.0,35
+EMP-1163,Ada Lovelace,Finance,mid,EMP-1090,2022-06-04,126000.0,40
+EMP-1164,Katherine Johnson,Sales,senior,EMP-1034,2016-01-13,104000.0,35
+EMP-1165,Donald Knuth,Finance,senior,EMP-1010,2023-04-02,123000.0,20
+EMP-1166,Margaret Hamilton,Engineering,mid,EMP-1055,2024-06-23,90000.0,40
+EMP-1167,Ada Lovelace,Finance,mid,EMP-1039,2017-12-29,96000.0,35
+EMP-1168,Donald Knuth,Engineering,mid,EMP-1093,2023-04-06,77000.0,40
+EMP-1169,Ada Lovelace,Finance,junior,EMP-1059,2024-11-01,64000.0,40
+EMP-1170,Alan Turing,IT,junior,EMP-1021,2018-10-29,109000.0,40
+EMP-1171,Barbara Liskov,Finance,senior,EMP-1008,2022-07-20,83000.0,40
+EMP-1172,Katherine Johnson,Human Resources,mid,EMP-1029,2024-09-04,143000.0,35
+EMP-1173,Margaret Hamilton,Sales,junior,EMP-1013,2021-10-31,52000.0,40
+EMP-1174,Margaret Hamilton,IT,senior,EMP-1036,2023-10-31,122000.0,35
+EMP-1175,Katherine Johnson,Finance,mid,EMP-1005,2019-10-24,122000.0,40
+EMP-1176,Katherine Johnson,Finance,senior,EMP-1048,2020-04-11,45000.0,35
+EMP-1177,Grace Hopper,Sales,mid,EMP-1069,2024-06-05,121000.0,40
+EMP-1178,Katherine Johnson,IT,senior,EMP-1040,2015-05-19,88000.0,40
+EMP-1179,Katherine Johnson,Engineering,junior,EMP-1060,2015-10-28,120000.0,40

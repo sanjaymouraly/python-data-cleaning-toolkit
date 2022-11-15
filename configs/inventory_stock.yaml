@@ -1,0 +1,55 @@
+# Example: cleaning the bundled inventory.xlsx sample (stock sheet)
+version: "1.0"
+name: inventory-stock-example
+description: >
+  Inventory stock sheet: numeric stock levels and costs, no negative stock,
+  trimmed item names, deduplicated warehouse rows are left to review.
+
+rules:
+  - id: stock-int
+    type: type_conversion
+    column: qty_in_stock
+    target: integer
+    on_error: flag
+
+  - id: unit-cost-decimal
+    type: type_conversion
+    column: unit_cost
+    target: decimal
+    on_error: flag
+
+  - id: reorder-level-fill-zero
+    type: missing_values
+    columns: [reorder_level]
+    strategy: fill_constant
+    fill_value: 0
+
+  - id: item-names
+    type: string_standardize
+    columns: [item_name]
+    trim_whitespace: true
+
+  - id: stock-rules
+    type: numeric_validate
+    columns: [qty_in_stock]
+    min: 0
+    allow_decimal: false
+
+  - id: cost-rules
+    type: numeric_validate
+    columns: [unit_cost]
+    min: 0
+
+  - id: unique-sku
+    type: unique_key
+    columns: [sku]
+    on_violation: flag
+
+export:
+  fmt: xlsx
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  key_columns: [sku, item_name]
+  write_excel_workbook: false

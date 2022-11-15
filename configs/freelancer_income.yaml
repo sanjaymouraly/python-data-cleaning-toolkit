@@ -1,0 +1,60 @@
+# Example: cleaning the bundled freelancer_income_expenses.xlsx (income sheet)
+version: "1.0"
+name: freelancer-income-example
+description: >
+  Freelancer income sheet: normalize invoice dates, parse euro-formatted
+  amounts, standardize client names, validate paid markers as booleans,
+  remove duplicate invoice rows.
+
+rules:
+  - id: markers-to-na
+    type: missing_values
+    strategy: retain
+    null_markers: ["", "n/a", "null", "-"]
+
+  - id: invoice-dates
+    type: date_normalize
+    columns: [invoice_date]
+    output_format: "%Y-%m-%d"
+    on_error: flag
+
+  - id: amount-decimal
+    type: type_conversion
+    column: amount
+    target: decimal
+    thousands_sep: ","
+    on_error: flag
+
+  - id: client-names
+    type: string_standardize
+    columns: [client]
+    trim_whitespace: true
+    case: title
+
+  - id: paid-boolean
+    type: type_conversion
+    column: paid
+    target: boolean
+    on_error: flag
+
+  - id: amount-positive
+    type: numeric_validate
+    columns: [amount]
+    min: 0
+    outlier_method: iqr
+    outlier_action: flag
+
+  - id: unique-invoice
+    type: duplicates
+    columns: [invoice_id]
+    keep: first
+
+export:
+  fmt: xlsx
+  directory: cleaned
+  filename_suffix: _cleaned
+
+audit:
+  key_columns: [invoice_id, client]
+  redact_columns: []
+  write_excel_workbook: false
